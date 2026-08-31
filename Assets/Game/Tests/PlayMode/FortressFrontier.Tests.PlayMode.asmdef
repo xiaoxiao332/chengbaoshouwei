@@ -1,0 +1,22 @@
+{
+  "name": "FortressFrontier.Tests.PlayMode",
+  "rootNamespace": "FortressFrontier.Tests",
+  "references": [
+    "FortressFrontier.Core",
+    "FortressFrontier.Runtime",
+    "FortressFrontier.Presentation",
+    "FortressFrontier.Bootstrap",
+    "FortressFrontier.Tests.Shared",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

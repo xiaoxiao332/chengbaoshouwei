@@ -1,0 +1,23 @@
+{
+  "name": "FortressFrontier.Tests.EditMode",
+  "rootNamespace": "FortressFrontier.Tests",
+  "references": [
+    "FortressFrontier.Core",
+    "FortressFrontier.Runtime",
+    "FortressFrontier.Infrastructure",
+    "FortressFrontier.Presentation",
+    "FortressFrontier.Editor",
+    "FortressFrontier.Tests.Shared",
+    "Unity.Newtonsoft.Json"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

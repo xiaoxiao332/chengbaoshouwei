@@ -1,0 +1,601 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a88409b2d89ec41bb47ddf36624aed, type: 3}
+  m_Name: CardCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.CardCatalog
+  _definitions:
+  - _id: card.building.pasture
+    _type: 1
+    _linkedContentId: building.pasture
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.pasture
+  - _id: card.building.winery
+    _type: 1
+    _linkedContentId: building.winery
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.winery
+  - _id: card.building.sawmill
+    _type: 1
+    _linkedContentId: building.sawmill
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.sawmill
+  - _id: card.building.stoneworks
+    _type: 1
+    _linkedContentId: building.stoneworks
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.stoneworks
+  - _id: card.building.iron-smelter
+    _type: 1
+    _linkedContentId: building.iron-smelter
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.iron-smelter
+  - _id: card.building.warehouse
+    _type: 1
+    _linkedContentId: building.warehouse
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.warehouse
+  - _id: card.building.shield-camp
+    _type: 1
+    _linkedContentId: building.shield-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.shield-camp
+  - _id: card.building.archer-camp
+    _type: 1
+    _linkedContentId: building.archer-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.archer-camp
+  - _id: card.building.ram-camp
+    _type: 1
+    _linkedContentId: building.ram-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.ram-camp
+  - _id: card.building.heavy-warrior-camp
+    _type: 1
+    _linkedContentId: building.heavy-warrior-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.heavy-warrior-camp
+  - _id: card.building.mage-camp
+    _type: 1
+    _linkedContentId: building.mage-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.mage-camp
+  - _id: card.building.longbow-camp
+    _type: 1
+    _linkedContentId: building.longbow-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.longbow-camp
+  - _id: card.building.cannon-camp
+    _type: 1
+    _linkedContentId: building.cannon-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.cannon-camp
+  - _id: card.building.research-lab
+    _type: 1
+    _linkedContentId: building.research-lab
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.research-lab
+  - _id: card.building.gatherer-lodge
+    _type: 1
+    _linkedContentId: building.gatherer-lodge
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.gatherer-lodge
+  - _id: card.building.wood-gatherer-camp
+    _type: 1
+    _linkedContentId: building.wood-gatherer-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.wood-gatherer-camp
+  - _id: card.building.stone-gatherer-camp
+    _type: 1
+    _linkedContentId: building.stone-gatherer-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.stone-gatherer-camp
+  - _id: card.building.iron-gatherer-camp
+    _type: 1
+    _linkedContentId: building.iron-gatherer-camp
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - buildingitem
+    _presentationKey: presentation.card.building.iron-gatherer-camp
+  - _id: card.battlefield.arrow-tower
+    _type: 2
+    _linkedContentId: building.arrow-tower
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: yield
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - battlefielditem
+    _presentationKey: presentation.card.battlefield.arrow-tower
+  - _id: card.tactic.field-rations
+    _type: 3
+    _linkedContentId: effect.field-rations
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: effect
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - tactic
+    _presentationKey: presentation.card.tactic.field-rations
+  - _id: card.tactic.emergency-supplies
+    _type: 3
+    _linkedContentId: effect.emergency-supplies
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: effect
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - tactic
+    _presentationKey: presentation.card.tactic.emergency-supplies
+  - _id: card.tactic.arrow-rain
+    _type: 3
+    _linkedContentId: effect.arrow-rain
+    _activationCampBuildingId: 
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: effect
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - tactic
+    _presentationKey: presentation.card.tactic.arrow-rain
+  - _id: card.soldier.shield-guard
+    _type: 0
+    _linkedContentId: unit.shield-guard
+    _activationCampBuildingId: building.shield-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.shield-guard
+  - _id: card.soldier.archer
+    _type: 0
+    _linkedContentId: unit.archer
+    _activationCampBuildingId: building.archer-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.archer
+  - _id: card.soldier.siege-ram
+    _type: 0
+    _linkedContentId: unit.siege-ram
+    _activationCampBuildingId: building.ram-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.siege-ram
+  - _id: card.soldier.heavy-warrior
+    _type: 0
+    _linkedContentId: unit.heavy-warrior
+    _activationCampBuildingId: building.heavy-warrior-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.heavy-warrior
+  - _id: card.soldier.mage
+    _type: 0
+    _linkedContentId: unit.mage
+    _activationCampBuildingId: building.mage-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.mage
+  - _id: card.soldier.longbow
+    _type: 0
+    _linkedContentId: unit.longbow
+    _activationCampBuildingId: building.longbow-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.longbow
+  - _id: card.soldier.cannon
+    _type: 0
+    _linkedContentId: unit.cannon
+    _activationCampBuildingId: building.cannon-camp
+    _defaultUnlocked: 1
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 10
+    _upgradeGoldCosts: 280000003c000000500000006e00000096000000c8000000040100004a0100009a010000
+    _growthRules:
+    - _propertyKey: health
+      _percentPerLevelBasisPoints: 400
+    _offerTags:
+    - soldier
+    _presentationKey: presentation.card.soldier.cannon
+  - _id: card.reinforcement.shield-pair
+    _type: 4
+    _linkedContentId: reinforcement.shield-pair
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.shield-pair
+  - _id: card.reinforcement.archer-pair
+    _type: 4
+    _linkedContentId: reinforcement.archer-pair
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.archer-pair
+  - _id: card.reinforcement.shield-archer
+    _type: 4
+    _linkedContentId: reinforcement.shield-archer
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.shield-archer
+  - _id: card.reinforcement.ram-shield
+    _type: 4
+    _linkedContentId: reinforcement.ram-shield
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.ram-shield
+  - _id: card.reinforcement.heavy-archers
+    _type: 4
+    _linkedContentId: reinforcement.heavy-archers
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.heavy-archers
+  - _id: card.reinforcement.mage-shields
+    _type: 4
+    _linkedContentId: reinforcement.mage-shields
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.mage-shields
+  - _id: card.reinforcement.longbows-shield
+    _type: 4
+    _linkedContentId: reinforcement.longbows-shield
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.longbows-shield
+  - _id: card.reinforcement.elite-trio
+    _type: 4
+    _linkedContentId: reinforcement.elite-trio
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.elite-trio
+  - _id: card.reinforcement.cannon-shields
+    _type: 4
+    _linkedContentId: reinforcement.cannon-shields
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.cannon-shields
+  - _id: card.reinforcement.ram-archers
+    _type: 4
+    _linkedContentId: reinforcement.ram-archers
+    _activationCampBuildingId: 
+    _defaultUnlocked: 0
+    _unlockGoldCost: 0
+    _prerequisiteCardIds: []
+    _maxMetaLevel: 1
+    _upgradeGoldCosts: 
+    _growthRules: []
+    _offerTags: []
+    _presentationKey: presentation.card.reinforcement.ram-archers
+  _tacticEffects:
+  - _id: effect.field-rations
+    _kind: 0
+    _targetKind: 0
+    _resourceAmounts:
+    - _resourceId: resource.meat
+      _amount: 20
+    _magnitude: 0
+    _radius: 0
+    _durationTicks: 0
+    _perMatchLimit: 0
+  - _id: effect.emergency-supplies
+    _kind: 0
+    _targetKind: 0
+    _resourceAmounts:
+    - _resourceId: resource.plank
+      _amount: 15
+    - _resourceId: resource.stone
+      _amount: 10
+    _magnitude: 0
+    _radius: 0
+    _durationTicks: 0
+    _perMatchLimit: 0
+  - _id: effect.arrow-rain
+    _kind: 1
+    _targetKind: 3
+    _resourceAmounts: []
+    _magnitude: 120
+    _radius: 140
+    _durationTicks: 0
+    _perMatchLimit: 0

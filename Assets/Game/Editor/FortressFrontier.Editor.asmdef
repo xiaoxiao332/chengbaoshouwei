@@ -1,0 +1,25 @@
+{
+  "name": "FortressFrontier.Editor",
+  "rootNamespace": "FortressFrontier",
+  "references": [
+    "FortressFrontier.Core",
+    "FortressFrontier.Runtime",
+    "FortressFrontier.Presentation",
+    "FortressFrontier.Infrastructure",
+    "FortressFrontier.Bootstrap",
+    "Unity.Addressables",
+    "Unity.Addressables.Editor",
+    "Unity.ResourceManager",
+    "Unity.InputSystem",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,901 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3b2b9430215214cb7fafffa78ce2b6, type: 3}
+  m_Name: BuildingCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.BuildingCatalog
+  _definitions:
+  - _id: building.pasture
+    _sourceCardId: card.building.pasture
+    _category: 1
+    _inputs:
+    - _resourceId: resource.food
+      _amount: 2
+    _outputs:
+    - _resourceId: resource.meat
+      _amount: 1
+    _inputReserveFloors:
+    - _resourceId: resource.food
+      _amount: 20
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 50
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.pasture
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.winery
+    _sourceCardId: card.building.winery
+    _category: 1
+    _inputs:
+    - _resourceId: resource.food
+      _amount: 2
+    _outputs:
+    - _resourceId: resource.wine
+      _amount: 1
+    _inputReserveFloors:
+    - _resourceId: resource.food
+      _amount: 20
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 50
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.winery
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.sawmill
+    _sourceCardId: card.building.sawmill
+    _category: 1
+    _inputs:
+    - _resourceId: resource.wood
+      _amount: 2
+    _outputs:
+    - _resourceId: resource.plank
+      _amount: 2
+    _inputReserveFloors:
+    - _resourceId: resource.wood
+      _amount: 10
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 50
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.sawmill
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.stoneworks
+    _sourceCardId: card.building.stoneworks
+    _category: 1
+    _inputs:
+    - _resourceId: resource.raw-stone
+      _amount: 2
+    _outputs:
+    - _resourceId: resource.stone
+      _amount: 2
+    _inputReserveFloors:
+    - _resourceId: resource.raw-stone
+      _amount: 6
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 50
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.stoneworks
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.iron-smelter
+    _sourceCardId: card.building.iron-smelter
+    _category: 1
+    _inputs:
+    - _resourceId: resource.iron-ore
+      _amount: 2
+    _outputs:
+    - _resourceId: resource.iron-ingot
+      _amount: 1
+    _inputReserveFloors:
+    - _resourceId: resource.iron-ore
+      _amount: 5
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 50
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.iron-smelter
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.warehouse
+    _sourceCardId: card.building.warehouse
+    _category: 2
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.warehouse
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.shield-camp
+    _sourceCardId: card.building.shield-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.shield-guard
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.shield-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.archer-camp
+    _sourceCardId: card.building.archer-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.archer
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.archer-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.ram-camp
+    _sourceCardId: card.building.ram-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.siege-ram
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.ram-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.heavy-warrior-camp
+    _sourceCardId: card.building.heavy-warrior-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.heavy-warrior
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.heavy-warrior-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.mage-camp
+    _sourceCardId: card.building.mage-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.mage
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.mage-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.longbow-camp
+    _sourceCardId: card.building.longbow-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.longbow
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.longbow-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.cannon-camp
+    _sourceCardId: card.building.cannon-camp
+    _category: 4
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: card.soldier.cannon
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.cannon-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.research-lab
+    _sourceCardId: card.building.research-lab
+    _category: 3
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: 
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.research-lab
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: research-bag.p1
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.arrow-tower
+    _sourceCardId: card.battlefield.arrow-tower
+    _category: 5
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: unit.builder
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 0
+    _upgradeLevels: []
+    _presentationKey: presentation.building.arrow-tower
+    _maxHealth: 650
+    _attackDamage: 30
+    _attackIntervalTicks: 10
+    _attackRange: 220
+    _projectileSpeedPerTick: 18
+    _constructionTicks: 120
+    _constructionCosts:
+    - _resourceId: resource.stone
+      _amount: 60
+    _researchBagId: 
+    _gathererAllowedResourceIds: []
+    _gathererDispatchCosts: []
+    _gathererDispatchIntervalTicks: 250
+    _gathererCarryAmount: 3
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.gatherer-lodge
+    _sourceCardId: card.building.gatherer-lodge
+    _category: 0
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: unit.gatherer
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 80
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.gatherer-lodge
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds:
+    - resource.food
+    _gathererDispatchCosts:
+    - _resourceId: resource.food
+      _amount: 1
+    _gathererDispatchIntervalTicks: 180
+    _gathererCarryAmount: 8
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.wood-gatherer-camp
+    _sourceCardId: card.building.wood-gatherer-camp
+    _category: 0
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: unit.lumberjack
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 80
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.wood-gatherer-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds:
+    - resource.wood
+    _gathererDispatchCosts:
+    - _resourceId: resource.food
+      _amount: 2
+    _gathererDispatchIntervalTicks: 200
+    _gathererCarryAmount: 7
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.stone-gatherer-camp
+    _sourceCardId: card.building.stone-gatherer-camp
+    _category: 0
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: unit.stonecutter
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 80
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.stone-gatherer-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds:
+    - resource.raw-stone
+    _gathererDispatchCosts:
+    - _resourceId: resource.food
+      _amount: 2
+    - _resourceId: resource.wood
+      _amount: 1
+    _gathererDispatchIntervalTicks: 220
+    _gathererCarryAmount: 6
+    _gathererResourceSelectionPolicy: 0
+  - _id: building.iron-gatherer-camp
+    _sourceCardId: card.building.iron-gatherer-camp
+    _category: 0
+    _inputs: []
+    _outputs: []
+    _inputReserveFloors: []
+    _workerUnitId: unit.iron-miner
+    _activatedSoldierCardId: 
+    _productionCycleTicks: 80
+    _workerGatherTicks: 80
+    _upgradeLevels:
+    - _level: 2
+      _requiredEffectiveWorkCount: 4
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 20
+      _durationSeconds: 5
+      _productionMultiplierMilli: 1150
+      _trainingTimeMultiplierMilli: 850
+    - _level: 3
+      _requiredEffectiveWorkCount: 10
+      _requiredMatchPhaseId: 
+      _paymentResourceId: resource.plank
+      _cost: 45
+      _durationSeconds: 8
+      _productionMultiplierMilli: 1300
+      _trainingTimeMultiplierMilli: 700
+    _presentationKey: presentation.building.iron-gatherer-camp
+    _maxHealth: 0
+    _attackDamage: 0
+    _attackIntervalTicks: 1
+    _attackRange: 0
+    _projectileSpeedPerTick: 0
+    _constructionTicks: 0
+    _constructionCosts: []
+    _researchBagId: 
+    _gathererAllowedResourceIds:
+    - resource.iron-ore
+    _gathererDispatchCosts:
+    - _resourceId: resource.food
+      _amount: 3
+    - _resourceId: resource.wood
+      _amount: 1
+    _gathererDispatchIntervalTicks: 240
+    _gathererCarryAmount: 5
+    _gathererResourceSelectionPolicy: 0
+  _researchUpgrades:
+  - _id: research.melee.damage
+    _targetRole: 0
+    _modifiers:
+    - _propertyKey: damage
+      _percentPerRankBasisPoints: 800
+    _maxRank: 3
+    _presentationKey: presentation.research.melee
+  - _id: research.melee.health
+    _targetRole: 0
+    _modifiers:
+    - _propertyKey: health
+      _percentPerRankBasisPoints: 1000
+    _maxRank: 3
+    _presentationKey: presentation.research.melee
+  - _id: research.ranged.damage
+    _targetRole: 1
+    _modifiers:
+    - _propertyKey: damage
+      _percentPerRankBasisPoints: 800
+    _maxRank: 3
+    _presentationKey: presentation.research.ranged
+  - _id: research.ranged.range
+    _targetRole: 1
+    _modifiers:
+    - _propertyKey: range
+      _percentPerRankBasisPoints: 700
+    _maxRank: 3
+    _presentationKey: presentation.research.ranged
+  - _id: research.magic.damage
+    _targetRole: 2
+    _modifiers:
+    - _propertyKey: damage
+      _percentPerRankBasisPoints: 1000
+    _maxRank: 3
+    _presentationKey: presentation.research.magic
+  - _id: research.magic.health
+    _targetRole: 2
+    _modifiers:
+    - _propertyKey: health
+      _percentPerRankBasisPoints: 800
+    _maxRank: 3
+    _presentationKey: presentation.research.magic
+  - _id: research.siege.damage
+    _targetRole: 3
+    _modifiers:
+    - _propertyKey: damage
+      _percentPerRankBasisPoints: 1000
+    _maxRank: 3
+    _presentationKey: presentation.research.siege
+  - _id: research.siege.health
+    _targetRole: 3
+    _modifiers:
+    - _propertyKey: health
+      _percentPerRankBasisPoints: 1000
+    _maxRank: 3
+    _presentationKey: presentation.research.siege
+  _researchBags:
+  - _id: research-bag.p1
+    _upgradeIds:
+    - research.melee.damage
+    - research.melee.health
+    - research.ranged.damage
+    - research.ranged.range
+    - research.magic.damage
+    - research.magic.health
+    - research.siege.damage
+    - research.siege.health
+    _costs:
+    - _resourceId: resource.wine
+      _amount: 12
+    - _resourceId: resource.iron-ingot
+      _amount: 8
+    _researchTicks: 250
+    _candidateCount: 3

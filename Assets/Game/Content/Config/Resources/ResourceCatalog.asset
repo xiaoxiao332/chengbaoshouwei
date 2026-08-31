@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed04348a6f749349a3dafb8c7913ce4, type: 3}
+  m_Name: ResourceCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.ResourceDefinitionCatalog
+  _definitions:
+  - _id: resource.food
+    _scope: 0
+    _group: 0
+    _acquisitionKind: 0
+    _displayName: "\u57FA\u7840\u98DF\u7269"
+    _presentationKey: presentation.resource.food
+    _defaultCapacity: 500
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.meat
+    _scope: 0
+    _group: 0
+    _acquisitionKind: 1
+    _displayName: "\u8089\u7C7B"
+    _presentationKey: presentation.resource.meat
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.wine
+    _scope: 0
+    _group: 0
+    _acquisitionKind: 1
+    _displayName: "\u9152"
+    _presentationKey: presentation.resource.wine
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.wood
+    _scope: 0
+    _group: 1
+    _acquisitionKind: 0
+    _displayName: "\u6728\u6750"
+    _presentationKey: presentation.resource.wood
+    _defaultCapacity: 400
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.plank
+    _scope: 0
+    _group: 1
+    _acquisitionKind: 1
+    _displayName: "\u6728\u677F"
+    _presentationKey: presentation.resource.plank
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.raw-stone
+    _scope: 0
+    _group: 2
+    _acquisitionKind: 0
+    _displayName: "\u539F\u77F3"
+    _presentationKey: presentation.resource.raw-stone
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.stone
+    _scope: 0
+    _group: 2
+    _acquisitionKind: 1
+    _displayName: "\u77F3\u6599"
+    _presentationKey: presentation.resource.stone
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.iron-ore
+    _scope: 0
+    _group: 3
+    _acquisitionKind: 0
+    _displayName: "\u94C1\u77FF"
+    _presentationKey: presentation.resource.iron-ore
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.iron-ingot
+    _scope: 0
+    _group: 3
+    _acquisitionKind: 1
+    _displayName: "\u94C1\u952D"
+    _presentationKey: presentation.resource.iron-ingot
+    _defaultCapacity: 300
+    _canOverflow: 0
+    _displayPrecision: 0
+  - _id: resource.gold
+    _scope: 1
+    _group: 4
+    _acquisitionKind: 2
+    _displayName: "\u91D1\u5E01"
+    _presentationKey: presentation.resource.gold
+    _defaultCapacity: 0
+    _canOverflow: 0
+    _displayPrecision: 0

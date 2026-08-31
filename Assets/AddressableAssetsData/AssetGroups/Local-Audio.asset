@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Local-Audio
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Local-Audio
+  m_GUID: 3b26acef37d7d514c81cc5f027d76ee6
+  m_SerializeEntries:
+  - m_GUID: 0147fc0f1762b014abc629049bf7baa6
+    m_Address: audio.bgm.boss.stone-golem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac65897fdc617941958df63aa3372c8
+    m_Address: audio.bgm.river-pass.decisive
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f8d77f7ea87ea84782494d30cb88fa8
+    m_Address: audio.bgm.prologue.development
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 295c5e0dfc8b70e4993ddcd17ab257d2
+    m_Address: audio.bgm.result.defeat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 523ace56e2057024998475c82aa49d77
+    m_Address: audio.sfx.gather-complete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 618b4be351eff12438d5fb4f0f92f3a0
+    m_Address: audio.bgm.river-pass.contest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67cd183670d9e4a4fb042476b2948b0e
+    m_Address: audio.bgm.result.victory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82c5b641944d3a046a1f137e2619e92a
+    m_Address: audio.sfx.unit-hit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9769eb18e92d4a3408b2d916bc55bb6b
+    m_Address: audio.bgm.prologue.decisive
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a55948d46f747c44598d856f9c4cafef
+    m_Address: audio.bgm.prologue.contest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0bedbc0ead7883468b21b6aac2c6737
+    m_Address: audio.bgm.selection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2a2fe9329b930e4eacd211120aeb161
+    m_Address: audio.bgm.river-pass.development
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff9226081dde79f4f8f7dc90ef5cbfb1
+    m_Address: audio.bgm.boot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dbc368f245c88e042a21749d7eff170f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 160cc073a55023041a9d1ad5dd01191a, type: 2}
+    - {fileID: 11400000, guid: 300f19977b5b5014087728f17ed1a1a4, type: 2}

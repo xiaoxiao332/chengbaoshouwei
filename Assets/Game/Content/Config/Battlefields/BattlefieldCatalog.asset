@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81ac1eba081f4498abc1f043656524, type: 3}
+  m_Name: BattlefieldCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.BattlefieldCatalog
+  _definitions:
+  - _id: battlefield.prologue
+    _displayName: "\u8FB9\u5883\u5E8F\u7AE0"
+    _sceneKey: scene.gameplay
+    _mapPresentationKey: presentation.map.prologue
+    _campaignStageId: stage.prologue
+    _mapModeIds:
+    - mode.prologue.peaceful
+    - mode.prologue.offensive
+    - mode.prologue.nightmare
+    _bossId: boss.stone-golem
+    _rewardTableId: reward.prologue
+    _initialHand:
+      _handSize: 6
+      _guaranteedCardIds:
+      - card.building.gatherer-lodge
+      - card.building.wood-gatherer-camp
+      - card.building.winery
+      - card.building.sawmill
+      - card.building.shield-camp
+      - card.building.archer-camp
+      _fillerCardIds: []
+    _initialPlayerInventory: []
+    _deploymentOrderTimeoutTicks: 300
+    _referenceWidth: 1920
+    _referenceHeight: 1080
+    _playerWall:
+      _id: wall.player
+      _maxHealth: 5000
+      _gate:
+        _id: wall.player.gate
+        _x: 470
+        _y: 540
+    _enemyWall:
+      _id: wall.enemy
+      _maxHealth: 5000
+      _gate:
+        _id: wall.enemy.gate
+        _x: 1872
+        _y: 540
+    _zones:
+    - _id: zone.player-deployment
+      _kind: 0
+      _x: 548
+      _y: 80
+      _width: 272
+      _height: 920
+    - _id: zone.enemy-deployment
+      _kind: 1
+      _x: 1536
+      _y: 80
+      _width: 258
+      _height: 920
+    - _id: zone.tower-buildable
+      _kind: 2
+      _x: 518
+      _y: 80
+      _width: 1306
+      _height: 920
+    - _id: zone.enemy-wall-forbidden
+      _kind: 3
+      _x: 1766
+      _y: 0
+      _width: 154
+      _height: 1080
+    - _id: zone.boss-a
+      _kind: 4
+      _x: 850
+      _y: 260
+      _width: 220
+      _height: 220
+    - _id: zone.boss-b
+      _kind: 4
+      _x: 850
+      _y: 600
+      _width: 220
+      _height: 220
+    - _id: zone.player-gate
+      _kind: 5
+      _x: 458
+      _y: 500
+      _width: 24
+      _height: 80
+    - _id: zone.enemy-gate
+      _kind: 5
+      _x: 1860
+      _y: 500
+      _width: 24
+      _height: 80
+    _routes:
+    - _id: route.upper
+      _points:
+      - _id: route.upper.0
+        _x: 518
+        _y: 270
+      - _id: route.upper.1
+        _x: 1120
+        _y: 270
+      - _id: route.upper.2
+        _x: 1824
+        _y: 270
+    - _id: route.middle
+      _points:
+      - _id: route.middle.0
+        _x: 518
+        _y: 540
+      - _id: route.middle.1
+        _x: 1120
+        _y: 540
+      - _id: route.middle.2
+        _x: 1824
+        _y: 540
+    - _id: route.lower
+      _points:
+      - _id: route.lower.0
+        _x: 518
+        _y: 810
+      - _id: route.lower.1
+        _x: 1120
+        _y: 810
+      - _id: route.lower.2
+        _x: 1824
+        _y: 810
+    _resourceNodes:
+    - _id: resource-node.player-0
+      _resourceId: 
+      _spawnGroup: 0
+      _mirrorNodeId: resource-node.enemy-0
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.player-0.point
+        _x: 680
+        _y: 270
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.player-1
+      _resourceId: 
+      _spawnGroup: 0
+      _mirrorNodeId: resource-node.enemy-1
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.player-1.point
+        _x: 680
+        _y: 540
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.player-2
+      _resourceId: 
+      _spawnGroup: 0
+      _mirrorNodeId: resource-node.enemy-2
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.player-2.point
+        _x: 680
+        _y: 810
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.central-0
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-0.point
+        _x: 1040
+        _y: 270
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-1
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-1.point
+        _x: 1300
+        _y: 270
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-2
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-2.point
+        _x: 1040
+        _y: 540
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-3
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-3.point
+        _x: 1300
+        _y: 540
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-4
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-4.point
+        _x: 1040
+        _y: 810
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-5
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-5.point
+        _x: 1300
+        _y: 810
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.enemy-0
+      _resourceId: 
+      _spawnGroup: 2
+      _mirrorNodeId: resource-node.player-0
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.enemy-0.point
+        _x: 1662
+        _y: 270
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.enemy-1
+      _resourceId: 
+      _spawnGroup: 2
+      _mirrorNodeId: resource-node.player-1
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.enemy-1.point
+        _x: 1662
+        _y: 540
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.enemy-2
+      _resourceId: 
+      _spawnGroup: 2
+      _mirrorNodeId: resource-node.player-2
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.enemy-2.point
+        _x: 1662
+        _y: 810
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    _gatherers:
+    - _sourceId: gatherer-source.gate.upper
+      _routeId: route.upper
+      _unitId: unit.gatherer
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      _carryAmount: 3
+      _gatherTicks: 80
+    - _sourceId: gatherer-source.gate.middle
+      _routeId: route.middle
+      _unitId: unit.gatherer
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      _carryAmount: 3
+      _gatherTicks: 80
+    - _sourceId: gatherer-source.gate.lower
+      _routeId: route.lower
+      _unitId: unit.gatherer
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      _carryAmount: 3
+      _gatherTicks: 80
+    _gathererDispatchIntervalMinTicks: 150
+    _gathererDispatchIntervalMaxTicks: 200
+    _bossSpawns:
+    - _id: boss-spawn.1
+      _position:
+        _id: boss-spawn.1.point
+        _x: 960
+        _y: 370
+      _warningTick: 2580
+      _spawnTick: 2700
+    - _id: boss-spawn.2
+      _position:
+        _id: boss-spawn.2.point
+        _x: 960
+        _y: 710
+      _warningTick: 6180
+      _spawnTick: 6300
+    _minimumRoadWidth: 54
+    _maxConstructionSites: 2
+    _maxCompletedTowers: 3
+    _maxActiveBuilders: 1
+    _builderRespawnTicks: 80
+    _retainedConstructionProgressMilli: 500
+  - _id: battlefield.river-pass
+    _displayName: "\u6CB3\u8C37\u5173\u9698"
+    _sceneKey: scene.gameplay
+    _mapPresentationKey: presentation.map.river-pass
+    _campaignStageId: stage.river-pass
+    _mapModeIds:
+    - mode.river-pass.peaceful
+    - mode.river-pass.offensive
+    - mode.river-pass.nightmare
+    _bossId: boss.stone-golem
+    _rewardTableId: reward.river-pass
+    _initialHand:
+      _handSize: 6
+      _guaranteedCardIds:
+      - card.building.gatherer-lodge
+      - card.building.wood-gatherer-camp
+      - card.building.winery
+      - card.building.sawmill
+      - card.building.shield-camp
+      - card.building.archer-camp
+      _fillerCardIds: []
+    _initialPlayerInventory: []
+    _deploymentOrderTimeoutTicks: 300
+    _referenceWidth: 1920
+    _referenceHeight: 1080
+    _playerWall:
+      _id: wall.player
+      _maxHealth: 5000
+      _gate:
+        _id: wall.player.gate
+        _x: 470
+        _y: 540
+    _enemyWall:
+      _id: wall.enemy
+      _maxHealth: 5000
+      _gate:
+        _id: wall.enemy.gate
+        _x: 1872
+        _y: 540
+    _zones:
+    - _id: zone.player-deployment
+      _kind: 0
+      _x: 548
+      _y: 80
+      _width: 272
+      _height: 920
+    - _id: zone.enemy-deployment
+      _kind: 1
+      _x: 1536
+      _y: 80
+      _width: 258
+      _height: 920
+    - _id: zone.tower-buildable
+      _kind: 2
+      _x: 518
+      _y: 80
+      _width: 1306
+      _height: 920
+    - _id: zone.enemy-wall-forbidden
+      _kind: 3
+      _x: 1766
+      _y: 0
+      _width: 154
+      _height: 1080
+    - _id: zone.boss-a
+      _kind: 4
+      _x: 970
+      _y: 220
+      _width: 220
+      _height: 220
+    - _id: zone.boss-b
+      _kind: 4
+      _x: 970
+      _y: 640
+      _width: 220
+      _height: 220
+    - _id: zone.player-gate
+      _kind: 5
+      _x: 458
+      _y: 500
+      _width: 24
+      _height: 80
+    - _id: zone.enemy-gate
+      _kind: 5
+      _x: 1860
+      _y: 500
+      _width: 24
+      _height: 80
+    _routes:
+    - _id: route.upper
+      _points:
+      - _id: route.upper.0
+        _x: 518
+        _y: 220
+      - _id: route.upper.1
+        _x: 1120
+        _y: 220
+      - _id: route.upper.2
+        _x: 1824
+        _y: 220
+    - _id: route.middle
+      _points:
+      - _id: route.middle.0
+        _x: 518
+        _y: 540
+      - _id: route.middle.1
+        _x: 1120
+        _y: 540
+      - _id: route.middle.2
+        _x: 1824
+        _y: 540
+    - _id: route.lower
+      _points:
+      - _id: route.lower.0
+        _x: 518
+        _y: 860
+      - _id: route.lower.1
+        _x: 1120
+        _y: 860
+      - _id: route.lower.2
+        _x: 1824
+        _y: 860
+    _resourceNodes:
+    - _id: resource-node.player-0
+      _resourceId: 
+      _spawnGroup: 0
+      _mirrorNodeId: resource-node.enemy-0
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.player-0.point
+        _x: 720
+        _y: 220
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.player-1
+      _resourceId: 
+      _spawnGroup: 0
+      _mirrorNodeId: resource-node.enemy-1
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.player-1.point
+        _x: 720
+        _y: 540
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.player-2
+      _resourceId: 
+      _spawnGroup: 0
+      _mirrorNodeId: resource-node.enemy-2
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.player-2.point
+        _x: 720
+        _y: 860
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.central-0
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-0.point
+        _x: 1040
+        _y: 220
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-1
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-1.point
+        _x: 1300
+        _y: 220
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-2
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-2.point
+        _x: 1040
+        _y: 540
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-3
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-3.point
+        _x: 1300
+        _y: 540
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-4
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-4.point
+        _x: 1040
+        _y: 860
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.central-5
+      _resourceId: 
+      _spawnGroup: 1
+      _mirrorNodeId: 
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.central-5.point
+        _x: 1300
+        _y: 860
+      _capacity: 160
+      _respawnCapacity: 0
+      _respawnDelayTicks: 450
+    - _id: resource-node.enemy-0
+      _resourceId: 
+      _spawnGroup: 2
+      _mirrorNodeId: resource-node.player-0
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.enemy-0.point
+        _x: 1622
+        _y: 220
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.enemy-1
+      _resourceId: 
+      _spawnGroup: 2
+      _mirrorNodeId: resource-node.player-1
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.enemy-1.point
+        _x: 1622
+        _y: 540
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    - _id: resource-node.enemy-2
+      _resourceId: 
+      _spawnGroup: 2
+      _mirrorNodeId: resource-node.player-2
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      - resource.iron-ore
+      _position:
+        _id: resource-node.enemy-2.point
+        _x: 1622
+        _y: 860
+      _capacity: 100
+      _respawnCapacity: 30
+      _respawnDelayTicks: 1800
+    _gatherers:
+    - _sourceId: gatherer-source.gate.upper
+      _routeId: route.upper
+      _unitId: unit.gatherer
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      _carryAmount: 3
+      _gatherTicks: 80
+    - _sourceId: gatherer-source.gate.middle
+      _routeId: route.middle
+      _unitId: unit.gatherer
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      _carryAmount: 3
+      _gatherTicks: 80
+    - _sourceId: gatherer-source.gate.lower
+      _routeId: route.lower
+      _unitId: unit.gatherer
+      _allowedResourceIds:
+      - resource.food
+      - resource.wood
+      - resource.raw-stone
+      _carryAmount: 3
+      _gatherTicks: 80
+    _gathererDispatchIntervalMinTicks: 150
+    _gathererDispatchIntervalMaxTicks: 200
+    _bossSpawns:
+    - _id: boss-spawn.1
+      _position:
+        _id: boss-spawn.1.point
+        _x: 1080
+        _y: 330
+      _warningTick: 2580
+      _spawnTick: 2700
+    - _id: boss-spawn.2
+      _position:
+        _id: boss-spawn.2.point
+        _x: 1080
+        _y: 750
+      _warningTick: 6180
+      _spawnTick: 6300
+    _minimumRoadWidth: 54
+    _maxConstructionSites: 2
+    _maxCompletedTowers: 3
+    _maxActiveBuilders: 1
+    _builderRespawnTicks: 80
+    _retainedConstructionProgressMilli: 500

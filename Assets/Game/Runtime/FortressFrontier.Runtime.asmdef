@@ -1,0 +1,14 @@
+{
+  "name": "FortressFrontier.Runtime",
+  "rootNamespace": "FortressFrontier",
+  "references": ["FortressFrontier.Core"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

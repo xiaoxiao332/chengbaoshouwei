@@ -1,0 +1,728 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Local-UI
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Local-UI
+  m_GUID: 6d52f23bb8fe48a49b57a9449a5c2dfb
+  m_SerializeEntries:
+  - m_GUID: 04a372ddd196ee14d8e569f2afa82f56
+    m_Address: ui.fatal-error
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 055aa5b8a6694944e8af8727d5beb112
+    m_Address: art.research.ranged
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 087500088ee67f94d8486f7428f530c9
+    m_Address: world.worker.stone.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b4f1eaf67fe5c24fb2cc8d965c2e321
+    m_Address: world.unit.archer.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dfd624db8de3814b9f86baed78cbced
+    m_Address: world.worker.stone.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10d0a2b55619dad44aa1d7ccee4dd114
+    m_Address: art.unit.iron-miner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1560362c38cbb19468ba0de835142682
+    m_Address: art.card.building.ram-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1682d233699afe045992fec450a4d49e
+    m_Address: art.unit.builder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ab5625a16edae546a1d1b7980a525a9
+    m_Address: art.research.defense
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c26c7d21a386314486fc71430de1469
+    m_Address: art.card.building.stone-gatherer-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c9da112483ba6042a1112768f0a9118
+    m_Address: world.boss-core
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d80518cbcf9b8141b24fdbe4e88953c
+    m_Address: art.card.soldier.shield-guard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e8daf24fc6eab44a87aef0d2512a37b
+    m_Address: art.card.building.winery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 206cdb0b5b4bb3847899e27987238aff
+    m_Address: world.tower.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2136547b7c044324fa4474f6c5c6bcb5
+    m_Address: art.card.tactic.emergency-supplies
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2174c0e693274034cb137e7111fdd90a
+    m_Address: world.worker.iron.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21783e0c6502e744f9fb5d4a110c11d4
+    m_Address: world.tower.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2376702050569814db811518a048b541
+    m_Address: ui.result
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23c0661b82e0224408505703cc8ae866
+    m_Address: art.prop.supply-node
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2467c753647ba2440a7cbbf464ef9721
+    m_Address: art.card.soldier.archer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25c76e3c28a75e94abf57421a8ac8c8b
+    m_Address: art.resource.iron-ingot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2639195868f6e684fb4a60397b7b55d4
+    m_Address: art.research.tactics
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2712eceded3c4d94786e60251aff6f82
+    m_Address: art.card.building.longbow-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 295ff51e0c1cd574b82048403bbd51bb
+    m_Address: art.unit.builder.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f9017145ef3fa34e97fe7437b51dc01
+    m_Address: art.card.building.iron-gatherer-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e8dc896fcb5e7479b596a3f5201ccd
+    m_Address: art.map.prologue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34ff7c95de3bee84f87d0bfb24bb62d1
+    m_Address: art.card.building.wood-gatherer-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38e1825c17c75df41a2796f309912b63
+    m_Address: world.unit.mage.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38ed5654b9192dd4fa3c03a7dae74b11
+    m_Address: world.unit.heavy-warrior.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a69a5c44471c2544a70cc8f18858e72
+    m_Address: art.state.upgrade-hidden
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a9291438d59321499b34d7d57b427f9
+    m_Address: art.unit.siege-ram.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41c09bfecf713084e8d80307bf51117f
+    m_Address: art.resource.iron-ore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42ab0961aea0730448d6b01114aeae15
+    m_Address: art.card.soldier.siege-ram
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42d3e148f87120e47aab40df8d92a880
+    m_Address: world.boss-warning-zone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4446c2f4abff619438cbae22527e5cbb
+    m_Address: art.card.soldier.longbow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4affc6e35eb82c84c981611c8ad2afac
+    m_Address: art.card.tactic.field-rations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c8225cd4b308a94f8a89e05439f64d9
+    m_Address: art.state.worker-returning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cb85650efda63a47a9a0bb962802ae8
+    m_Address: art.overlay.wall-crack-03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50a5eb1dff656d549b0fdab2ab1b20b5
+    m_Address: art.reward.reinforcement
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 519701a555fdc3842bc0327eb7d831d6
+    m_Address: art.overlay.wall-crack-02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5444c8de2e627394ebe4332e03dfd8a6
+    m_Address: art.ui.slot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 596baad11196de7429bcf853778f54c6
+    m_Address: ui.boot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 597a28aa66caaf841b8abfedf4b8c099
+    m_Address: art.unit.stonecutter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cfeca4950ab35c4fb08b054ea5c5327
+    m_Address: art.building.arrow-tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d16d95b609be9a46bddfa8153f2c6c5
+    m_Address: world.gatherer.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d797f88672e1d64ea8186b08623d8c1
+    m_Address: art.state.upgrading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ea366adbbe16c2428dfe04a0d9d4768
+    m_Address: art.card.building.gatherer-lodge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f2f1cd613cc7524886b93949653e327
+    m_Address: world.worker.food.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f47ce37e4cc64f4ea7c0c9995eb0449
+    m_Address: art.worker.iron.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 606aa0eea357e6b4e9c087e91667b35d
+    m_Address: art.resource.stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6113680d726a5694dad9fa9861045f36
+    m_Address: world.worker.iron.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63013d5d8a71bcb4e997bab7d82e649a
+    m_Address: art.prop.stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 638c122b78cdfad4887eb79d519696c7
+    m_Address: world.enemy-order-route
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6390d0ac9ba3de442bd6f90192be564c
+    m_Address: art.state.worker-gathering
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64dca05cf06dcc04fb1a73984ed077ac
+    m_Address: world.unit.shield.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 678d7e482c6a65a43a123f83617fb177
+    m_Address: art.state.paused
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a2cf83a67390ff47ae7aaf754061e87
+    m_Address: art.card.soldier.heavy-warrior
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a9fa96d74378bb428f9544796473702
+    m_Address: art.reward.building
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b6add99ad1e1c94dba84f0a4032843e
+    m_Address: art.resource.gold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e28a51f546d5c1428b7fcbf66470ba3
+    m_Address: ui.gameplay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eed5c2f055ea7448b27f441879e20e1
+    m_Address: world.builder.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f2112a49596cf54fac83f96e86a9905
+    m_Address: art.card.building.sawmill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70065a9d500bb28448c6437f7e495635
+    m_Address: art.state.training-waiting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73dd6be7152b21142a19b991dfe39558
+    m_Address: art.ui.topbar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75f45fe27179a034cb0fec7ea534ad94
+    m_Address: art.overlay.wall-crack-01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77051e8efac86744c8998995b3ced6d3
+    m_Address: world.worker.wood.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 784749e8f0b4eef4690a04e0647afbd9
+    m_Address: world.unit.longbow.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c4979c395e547b4aad5f9aead19c579
+    m_Address: world.unit.ram.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7caf4d61c52e1e646a18c6a835f0c3e5
+    m_Address: world.tower-site.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d22c83a40d5e614aa2cb13713c1f4bb
+    m_Address: art.card.battlefield.arrow-tower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d328ecd0649c2b409ab07006eea662d
+    m_Address: world.unit.longbow.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dbb72f39dc304e4db8829fe59b07f7f
+    m_Address: ui.loading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e77ae5cf8294c846ab0398af5353611
+    m_Address: world.worker.wood.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 808700759255d2e4680443eed872b76a
+    m_Address: world.projectile.arrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85b2a8d118e6ded4e80594cd9a0dff86
+    m_Address: art.building.arrow-tower.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86982234062deef4da254ba4764ae235
+    m_Address: art.state.training-active
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86ea1e4755dc5244b97fc72d35c4ec78
+    m_Address: art.card.building.archer-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86fe7ae0a5611ea409e5c485c15ab319
+    m_Address: art.pickup.boss-reward-core
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8975e32f893113c49a6fe4467414a26f
+    m_Address: art.card.building.heavy-warrior-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e8ca6d1f77328d419c88a6e54138257
+    m_Address: art.prop.berry
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fb13b9190db889439616ce1862dec3f
+    m_Address: art.card.building.cannon-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 905ef8949312b2b4195f81dcb763f26f
+    m_Address: world.unit.archer.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 950e911f1965b8148a59e83366553da0
+    m_Address: art.building.arrow-tower-site.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 957a4034fd671f941b4adbd07f3d706a
+    m_Address: art.resource.wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965f0bbd2568dbd458b7f6f0ed40f6de
+    m_Address: art.ui.tab.soldier
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97f0339614ae4474fbc1ae1ebb6f70d3
+    m_Address: art.research.siege
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b4b3895d998c5b46840b6bcb8778616
+    m_Address: world.worker.food.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d29e628394df88489dd51fedc0bcd8c
+    m_Address: world.resource.food
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ebfecdbe79dd3d478ffa690fe9b95ab
+    m_Address: art.boss.stone-golem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fe473dfdd174954da6f5a3c5fd8af75
+    m_Address: world.resource.raw-stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a62bc4a6392bd7b4eb1a1077290584fd
+    m_Address: art.map.river-pass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8b07dcb823c8ab4ba4e1fae76fb1fed
+    m_Address: world.unit.heavy-warrior.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a941ab4fe14c8e94f99996a1ad249a07
+    m_Address: world.boss-meteor
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aef3823e3da3f3246869cec3b734750e
+    m_Address: art.state.training-deployed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc4bc9fa89562344940dc63b8613a8a
+    m_Address: art.card.building.research-lab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1a5d854fcd4b6a4996e5454f0b586f4
+    m_Address: art.card.building.warehouse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7bd05537e6fe3f4e8736871b7f22ae2
+    m_Address: art.research.attack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7ed771d0a85c2d4a9a9521a51a36cda
+    m_Address: art.ui.tab.item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba2c778f6b77c2a4ea43cf7237ba0995
+    m_Address: art.card.tactic.arrow-rain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbc8ad1786c39dd4d9101213ca06e739
+    m_Address: world.projectile.fireball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbd6a52d53f6de5488807a27ab984ffb
+    m_Address: art.research.melee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf8a60a0b7e49f742a3843c7fce71e7e
+    m_Address: art.state.worker-outbound
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2bc1986e8593dc40b90b8ddc78e25fb
+    m_Address: world.unit.shield.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3f155081ee853141a5a0684ec17317a
+    m_Address: world.resource.iron-ore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6c776dd601d80048b5ddd9d9e27cb97
+    m_Address: art.ui.button.primary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c84c46e0e2018b44186e0f0d5205af56
+    m_Address: art.card.soldier.mage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c89ec8ee8b167bb41b0ac6f5e8e1d029
+    m_Address: world.gatherer.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbaad013b462f5f49a54032bd7a5d8d6
+    m_Address: art.prop.tree
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb4245075d0027408ba11b3985a3b2b
+    m_Address: ui.settings
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d16cb4d91c5d41d428a11de65a7fd15e
+    m_Address: art.resource.food
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d213ed27f41b614488f458136698f559
+    m_Address: ui.selection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2e143fdf0f75884aa2f932f8c4761d2
+    m_Address: world.tower-site.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d44a1b2a13ca8284d86b7029061e6be1
+    m_Address: art.resource.wine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55e6395f2759c7418bd1d76e80adb32
+    m_Address: art.research.magic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5b6cca3bf1f6794981b0fbf5dd541f2
+    m_Address: world.projectile.cannonball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d659bc89fefae1245bbe160798691e86
+    m_Address: art.state.upgrade-max
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6c54e6d2f3b885459c067b40082c674
+    m_Address: art.state.missing-input
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de4f28b52c94b1c4fb3bce693b428765
+    m_Address: art.reward.resource
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df3e3acf08db24141bcf5b15e488c068
+    m_Address: art.worker.stone.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e11087faf7d2dad468a4a4f910ebb518
+    m_Address: art.unit.gatherer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e181d802005201b4e906a1cd451cfff3
+    m_Address: art.card.building.stoneworks
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e585b54affddb884dba6d09378310d2c
+    m_Address: art.building.arrow-tower-site.friendly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6467d6d125cbc141a3185f4a3f0b12e
+    m_Address: world.unit.cannon.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9ef0d5460fafd642ba3973eb233cdc9
+    m_Address: art.resource.raw-stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea9c2d9e0f18ecc41bec6d012c60fe9e
+    m_Address: art.worker.wood.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ead1b27bdfd394c46b74f6324132cab8
+    m_Address: art.resource.meat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec7519cd6c2a4bc4e92a915abc84ae21
+    m_Address: art.state.upgrade-locked
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edc67454212233143bab89986bdf8b28
+    m_Address: art.card.building.mage-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f03cad01348f95a47acc988c07c353c1
+    m_Address: world.builder.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f04155bfd63109c4084af8874d5da111
+    m_Address: art.resource.plank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f059c3a101418304d9f27df575f8f615
+    m_Address: art.ui.button.danger
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22a3ccc795b4314b958a40ab3879920
+    m_Address: art.card.soldier.cannon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5cd49f4a5c2e0a428206669e947cea5
+    m_Address: art.unit.lumberjack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5d1516f7894e0a4cbe7ac6c9238487a
+    m_Address: world.unit.ram.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f800e55cc2ad8b543a7b10e7b469bc72
+    m_Address: world.boss
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc28dec9f9ba4b247b3cf7a0af2ea6c5
+    m_Address: art.card.building.shield-camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9fbc8ca48d87d4b9925a6bc8e91f40
+    m_Address: world.unit.mage.player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd30e27c41db685419ef654021c2bf95
+    m_Address: art.state.upgrade-ready
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd4e47b1c592fb9499071dd2cba4f8de
+    m_Address: world.unit.cannon.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd9244cf4391d9046bc5f0c05401ce11
+    m_Address: world.resource.wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdb3006362d645948baa61e59a208eaa
+    m_Address: art.worker.food.enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dbc368f245c88e042a21749d7eff170f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0da2dcb81b25be749b8a06905d3edf0b, type: 2}
+    - {fileID: 11400000, guid: b01f83da3874c4745ac6564353374bb2, type: 2}

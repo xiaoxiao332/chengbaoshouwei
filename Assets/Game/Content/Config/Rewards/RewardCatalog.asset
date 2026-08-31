@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe55b0dfbf001e04085bc5fc3952e108, type: 3}
+  m_Name: RewardCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.RewardCatalog
+  _definitions:
+  - _id: reward.prologue
+    _timedCardOffers:
+    - _triggerSeconds: 60
+      _candidateCount: 4
+      _fallbackCardIds:
+      - card.building.pasture
+      - card.building.winery
+      - card.building.sawmill
+      - card.building.stoneworks
+      - card.building.iron-smelter
+      - card.building.warehouse
+      - card.building.shield-camp
+      - card.building.archer-camp
+      - card.building.ram-camp
+      - card.building.heavy-warrior-camp
+      - card.building.mage-camp
+      - card.building.longbow-camp
+      - card.building.cannon-camp
+      - card.building.research-lab
+      - card.building.gatherer-lodge
+      - card.building.wood-gatherer-camp
+      - card.building.stone-gatherer-camp
+      - card.building.iron-gatherer-camp
+      - card.battlefield.arrow-tower
+    _completionGold: 40
+    _victoryGold: 60
+    _firstClearGold: 100
+    _handLimit: 6
+    _allowFullHandDiscard: 1
+    _fullHandExchange:
+      _resourceId: 
+      _amount: 0
+    _playerBossRewards:
+    - _id: boss-reward.player.0
+      _kind: 2
+      _weight: 100
+      _magnitude: 25
+      _durationTicks: 0
+    - _id: boss-reward.player.1
+      _kind: 0
+      _weight: 90
+      _magnitude: 150
+      _durationTicks: 0
+    - _id: boss-reward.player.2
+      _kind: 1
+      _weight: 80
+      _magnitude: 200
+      _durationTicks: 200
+    _enemyBossRewards:
+    - _id: boss-reward.enemy.0
+      _kind: 2
+      _weight: 100
+      _magnitude: 25
+      _durationTicks: 0
+    - _id: boss-reward.enemy.1
+      _kind: 4
+      _weight: 90
+      _magnitude: 150
+      _durationTicks: 0
+    - _id: boss-reward.enemy.2
+      _kind: 5
+      _weight: 80
+      _magnitude: 200
+      _durationTicks: 200
+    _bossRewardBudgetMilli: 700
+    _rarityWeights:
+    - _rarity: 0
+      _heatTierWeights: 640000004b0000003c000000320000002d000000
+    - _rarity: 1
+      _heatTierWeights: 0000000019000000280000002800000028000000
+    - _rarity: 2
+      _heatTierWeights: 0000000000000000000000000a0000000f000000
+    _processedResourceBundles:
+    - _id: reward-bundle.meat-wine
+      _displayName: "\u8089\u4E0E\u9152"
+      _rarity: 0
+      _amounts:
+      - _resourceId: resource.meat
+        _amount: 6
+      - _resourceId: resource.wine
+        _amount: 6
+    - _id: reward-bundle.plank-stone
+      _displayName: "\u6728\u677F\u4E0E\u77F3\u6599"
+      _rarity: 0
+      _amounts:
+      - _resourceId: resource.plank
+        _amount: 12
+      - _resourceId: resource.stone
+        _amount: 12
+    - _id: reward-bundle.wine-ingot
+      _displayName: "\u9152\u4E0E\u94C1\u952D"
+      _rarity: 0
+      _amounts:
+      - _resourceId: resource.wine
+        _amount: 6
+      - _resourceId: resource.iron-ingot
+        _amount: 6
+    - _id: reward-bundle.meat-wine.rare
+      _displayName: "\u8089\u4E0E\u9152"
+      _rarity: 1
+      _amounts:
+      - _resourceId: resource.meat
+        _amount: 8
+      - _resourceId: resource.wine
+        _amount: 8
+    - _id: reward-bundle.plank-stone.rare
+      _displayName: "\u6728\u677F\u4E0E\u77F3\u6599"
+      _rarity: 1
+      _amounts:
+      - _resourceId: resource.plank
+        _amount: 15
+      - _resourceId: resource.stone
+        _amount: 15
+    - _id: reward-bundle.wine-ingot.rare
+      _displayName: "\u9152\u4E0E\u94C1\u952D"
+      _rarity: 1
+      _amounts:
+      - _resourceId: resource.wine
+        _amount: 8
+      - _resourceId: resource.iron-ingot
+        _amount: 8
+    - _id: reward-bundle.meat-wine.epic
+      _displayName: "\u8089\u4E0E\u9152"
+      _rarity: 2
+      _amounts:
+      - _resourceId: resource.meat
+        _amount: 9
+      - _resourceId: resource.wine
+        _amount: 9
+    - _id: reward-bundle.plank-stone.epic
+      _displayName: "\u6728\u677F\u4E0E\u77F3\u6599"
+      _rarity: 2
+      _amounts:
+      - _resourceId: resource.plank
+        _amount: 18
+      - _resourceId: resource.stone
+        _amount: 18
+    - _id: reward-bundle.wine-ingot.epic
+      _displayName: "\u9152\u4E0E\u94C1\u952D"
+      _rarity: 2
+      _amounts:
+      - _resourceId: resource.wine
+        _amount: 9
+      - _resourceId: resource.iron-ingot
+        _amount: 9
+    _reinforcementTemplates:
+    - _id: reinforcement.shield-pair
+      _displayName: "\u76FE\u5175\u63F4\u519B \xD72"
+      _minimumHeatTier: 0
+      _rarity: 0
+      _units:
+      - _unitId: unit.shield-guard
+        _quantity: 2
+    - _id: reinforcement.archer-pair
+      _displayName: "\u5F13\u7BAD\u624B\u63F4\u519B \xD72"
+      _minimumHeatTier: 0
+      _rarity: 0
+      _units:
+      - _unitId: unit.archer
+        _quantity: 2
+    - _id: reinforcement.shield-archer
+      _displayName: "\u76FE\u5175 \xD72 + \u5F13\u7BAD\u624B"
+      _minimumHeatTier: 1
+      _rarity: 1
+      _units:
+      - _unitId: unit.shield-guard
+        _quantity: 2
+      - _unitId: unit.archer
+        _quantity: 1
+    - _id: reinforcement.ram-shield
+      _displayName: "\u7834\u57CE\u69CC + \u76FE\u5175"
+      _minimumHeatTier: 1
+      _rarity: 1
+      _units:
+      - _unitId: unit.siege-ram
+        _quantity: 1
+      - _unitId: unit.shield-guard
+        _quantity: 1
+    - _id: reinforcement.heavy-archers
+      _displayName: "\u91CD\u88C5 + \u5F13\u7BAD\u624B \xD72"
+      _minimumHeatTier: 2
+      _rarity: 1
+      _units:
+      - _unitId: unit.heavy-warrior
+        _quantity: 1
+      - _unitId: unit.archer
+        _quantity: 2
+    - _id: reinforcement.mage-shields
+      _displayName: "\u6CD5\u5E08 + \u76FE\u5175 \xD72"
+      _minimumHeatTier: 2
+      _rarity: 1
+      _units:
+      - _unitId: unit.mage
+        _quantity: 1
+      - _unitId: unit.shield-guard
+        _quantity: 2
+    - _id: reinforcement.longbows-shield
+      _displayName: "\u957F\u5F13 \xD72 + \u76FE\u5175"
+      _minimumHeatTier: 2
+      _rarity: 1
+      _units:
+      - _unitId: unit.longbow
+        _quantity: 2
+      - _unitId: unit.shield-guard
+        _quantity: 1
+    - _id: reinforcement.elite-trio
+      _displayName: "\u91CD\u88C5 + \u6CD5\u5E08 + \u957F\u5F13"
+      _minimumHeatTier: 3
+      _rarity: 2
+      _units:
+      - _unitId: unit.heavy-warrior
+        _quantity: 1
+      - _unitId: unit.mage
+        _quantity: 1
+      - _unitId: unit.longbow
+        _quantity: 1
+    - _id: reinforcement.cannon-shields
+      _displayName: "\u70AE\u8F66 + \u76FE\u5175 \xD72"
+      _minimumHeatTier: 3
+      _rarity: 2
+      _units:
+      - _unitId: unit.cannon
+        _quantity: 1
+      - _unitId: unit.shield-guard
+        _quantity: 2
+    - _id: reinforcement.ram-archers
+      _displayName: "\u7834\u57CE\u69CC + \u5F13\u7BAD\u624B \xD72"
+      _minimumHeatTier: 3
+      _rarity: 2
+      _units:
+      - _unitId: unit.siege-ram
+        _quantity: 1
+      - _unitId: unit.archer
+        _quantity: 2
+    _buildingRewardPresentationKey: presentation.reward.building
+    _resourceRewardPresentationKey: presentation.reward.resource
+    _reinforcementRewardPresentationKey: presentation.reward.reinforcement
+  - _id: reward.river-pass
+    _timedCardOffers:
+    - _triggerSeconds: 60
+      _candidateCount: 4
+      _fallbackCardIds:
+      - card.building.pasture
+      - card.building.winery
+      - card.building.sawmill
+      - card.building.stoneworks
+      - card.building.iron-smelter
+      - card.building.warehouse
+      - card.building.shield-camp
+      - card.building.archer-camp
+      - card.building.ram-camp
+      - card.building.heavy-warrior-camp
+      - card.building.mage-camp
+      - card.building.longbow-camp
+      - card.building.cannon-camp
+      - card.building.research-lab
+      - card.building.gatherer-lodge
+      - card.building.wood-gatherer-camp
+      - card.building.stone-gatherer-camp
+      - card.building.iron-gatherer-camp
+      - card.battlefield.arrow-tower
+    _completionGold: 55
+    _victoryGold: 80
+    _firstClearGold: 140
+    _handLimit: 6
+    _allowFullHandDiscard: 1
+    _fullHandExchange:
+      _resourceId: 
+      _amount: 0
+    _playerBossRewards:
+    - _id: boss-reward.player.0
+      _kind: 2
+      _weight: 100
+      _magnitude: 25
+      _durationTicks: 0
+    - _id: boss-reward.player.1
+      _kind: 0
+      _weight: 90
+      _magnitude: 150
+      _durationTicks: 0
+    - _id: boss-reward.player.2
+      _kind: 1
+      _weight: 80
+      _magnitude: 200
+      _durationTicks: 200
+    _enemyBossRewards:
+    - _id: boss-reward.enemy.0
+      _kind: 2
+      _weight: 100
+      _magnitude: 25
+      _durationTicks: 0
+    - _id: boss-reward.enemy.1
+      _kind: 4
+      _weight: 90
+      _magnitude: 150
+      _durationTicks: 0
+    - _id: boss-reward.enemy.2
+      _kind: 5
+      _weight: 80
+      _magnitude: 200
+      _durationTicks: 200
+    _bossRewardBudgetMilli: 700
+    _rarityWeights:
+    - _rarity: 0
+      _heatTierWeights: 640000004b0000003c000000320000002d000000
+    - _rarity: 1
+      _heatTierWeights: 0000000019000000280000002800000028000000
+    - _rarity: 2
+      _heatTierWeights: 0000000000000000000000000a0000000f000000
+    _processedResourceBundles:
+    - _id: reward-bundle.meat-wine
+      _displayName: "\u8089\u4E0E\u9152"
+      _rarity: 0
+      _amounts:
+      - _resourceId: resource.meat
+        _amount: 6
+      - _resourceId: resource.wine
+        _amount: 6
+    - _id: reward-bundle.plank-stone
+      _displayName: "\u6728\u677F\u4E0E\u77F3\u6599"
+      _rarity: 0
+      _amounts:
+      - _resourceId: resource.plank
+        _amount: 12
+      - _resourceId: resource.stone
+        _amount: 12
+    - _id: reward-bundle.wine-ingot
+      _displayName: "\u9152\u4E0E\u94C1\u952D"
+      _rarity: 0
+      _amounts:
+      - _resourceId: resource.wine
+        _amount: 6
+      - _resourceId: resource.iron-ingot
+        _amount: 6
+    - _id: reward-bundle.meat-wine.rare
+      _displayName: "\u8089\u4E0E\u9152"
+      _rarity: 1
+      _amounts:
+      - _resourceId: resource.meat
+        _amount: 8
+      - _resourceId: resource.wine
+        _amount: 8
+    - _id: reward-bundle.plank-stone.rare
+      _displayName: "\u6728\u677F\u4E0E\u77F3\u6599"
+      _rarity: 1
+      _amounts:
+      - _resourceId: resource.plank
+        _amount: 15
+      - _resourceId: resource.stone
+        _amount: 15
+    - _id: reward-bundle.wine-ingot.rare
+      _displayName: "\u9152\u4E0E\u94C1\u952D"
+      _rarity: 1
+      _amounts:
+      - _resourceId: resource.wine
+        _amount: 8
+      - _resourceId: resource.iron-ingot
+        _amount: 8
+    - _id: reward-bundle.meat-wine.epic
+      _displayName: "\u8089\u4E0E\u9152"
+      _rarity: 2
+      _amounts:
+      - _resourceId: resource.meat
+        _amount: 9
+      - _resourceId: resource.wine
+        _amount: 9
+    - _id: reward-bundle.plank-stone.epic
+      _displayName: "\u6728\u677F\u4E0E\u77F3\u6599"
+      _rarity: 2
+      _amounts:
+      - _resourceId: resource.plank
+        _amount: 18
+      - _resourceId: resource.stone
+        _amount: 18
+    - _id: reward-bundle.wine-ingot.epic
+      _displayName: "\u9152\u4E0E\u94C1\u952D"
+      _rarity: 2
+      _amounts:
+      - _resourceId: resource.wine
+        _amount: 9
+      - _resourceId: resource.iron-ingot
+        _amount: 9
+    _reinforcementTemplates:
+    - _id: reinforcement.shield-pair
+      _displayName: "\u76FE\u5175\u63F4\u519B \xD72"
+      _minimumHeatTier: 0
+      _rarity: 0
+      _units:
+      - _unitId: unit.shield-guard
+        _quantity: 2
+    - _id: reinforcement.archer-pair
+      _displayName: "\u5F13\u7BAD\u624B\u63F4\u519B \xD72"
+      _minimumHeatTier: 0
+      _rarity: 0
+      _units:
+      - _unitId: unit.archer
+        _quantity: 2
+    - _id: reinforcement.shield-archer
+      _displayName: "\u76FE\u5175 \xD72 + \u5F13\u7BAD\u624B"
+      _minimumHeatTier: 1
+      _rarity: 1
+      _units:
+      - _unitId: unit.shield-guard
+        _quantity: 2
+      - _unitId: unit.archer
+        _quantity: 1
+    - _id: reinforcement.ram-shield
+      _displayName: "\u7834\u57CE\u69CC + \u76FE\u5175"
+      _minimumHeatTier: 1
+      _rarity: 1
+      _units:
+      - _unitId: unit.siege-ram
+        _quantity: 1
+      - _unitId: unit.shield-guard
+        _quantity: 1
+    - _id: reinforcement.heavy-archers
+      _displayName: "\u91CD\u88C5 + \u5F13\u7BAD\u624B \xD72"
+      _minimumHeatTier: 2
+      _rarity: 1
+      _units:
+      - _unitId: unit.heavy-warrior
+        _quantity: 1
+      - _unitId: unit.archer
+        _quantity: 2
+    - _id: reinforcement.mage-shields
+      _displayName: "\u6CD5\u5E08 + \u76FE\u5175 \xD72"
+      _minimumHeatTier: 2
+      _rarity: 1
+      _units:
+      - _unitId: unit.mage
+        _quantity: 1
+      - _unitId: unit.shield-guard
+        _quantity: 2
+    - _id: reinforcement.longbows-shield
+      _displayName: "\u957F\u5F13 \xD72 + \u76FE\u5175"
+      _minimumHeatTier: 2
+      _rarity: 1
+      _units:
+      - _unitId: unit.longbow
+        _quantity: 2
+      - _unitId: unit.shield-guard
+        _quantity: 1
+    - _id: reinforcement.elite-trio
+      _displayName: "\u91CD\u88C5 + \u6CD5\u5E08 + \u957F\u5F13"
+      _minimumHeatTier: 3
+      _rarity: 2
+      _units:
+      - _unitId: unit.heavy-warrior
+        _quantity: 1
+      - _unitId: unit.mage
+        _quantity: 1
+      - _unitId: unit.longbow
+        _quantity: 1
+    - _id: reinforcement.cannon-shields
+      _displayName: "\u70AE\u8F66 + \u76FE\u5175 \xD72"
+      _minimumHeatTier: 3
+      _rarity: 2
+      _units:
+      - _unitId: unit.cannon
+        _quantity: 1
+      - _unitId: unit.shield-guard
+        _quantity: 2
+    - _id: reinforcement.ram-archers
+      _displayName: "\u7834\u57CE\u69CC + \u5F13\u7BAD\u624B \xD72"
+      _minimumHeatTier: 3
+      _rarity: 2
+      _units:
+      - _unitId: unit.siege-ram
+        _quantity: 1
+      - _unitId: unit.archer
+        _quantity: 2
+    _buildingRewardPresentationKey: presentation.reward.building
+    _resourceRewardPresentationKey: presentation.reward.resource
+    _reinforcementRewardPresentationKey: presentation.reward.reinforcement

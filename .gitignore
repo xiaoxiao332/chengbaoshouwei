@@ -1,0 +1,53 @@
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Local builds, captures, and scratch output
+[Bb]uild/
+[Bb]uilds/
+[Cc]aptures/
+/tmp/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+__pycache__/
+*.py[cod]
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity crash and generated packages
+sysinfo.txt
+*.unitypackage
+
+# Signing credentials and private environment files
+*.keystore
+*.jks
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example

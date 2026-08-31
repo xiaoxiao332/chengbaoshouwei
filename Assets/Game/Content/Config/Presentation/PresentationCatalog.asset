@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c18580a8c4de5347984bfa1a85cd928, type: 3}
+  m_Name: PresentationCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.PresentationCatalog
+  _definitions:
+  - _id: presentation.resource.food
+    _resourceKey: art.resource.food
+  - _id: presentation.resource.meat
+    _resourceKey: art.resource.meat
+  - _id: presentation.resource.wine
+    _resourceKey: art.resource.wine
+  - _id: presentation.resource.wood
+    _resourceKey: art.resource.wood
+  - _id: presentation.resource.plank
+    _resourceKey: art.resource.plank
+  - _id: presentation.resource.raw-stone
+    _resourceKey: art.resource.raw-stone
+  - _id: presentation.resource.stone
+    _resourceKey: art.resource.stone
+  - _id: presentation.resource.iron-ore
+    _resourceKey: art.resource.iron-ore
+  - _id: presentation.resource.iron-ingot
+    _resourceKey: art.resource.iron-ingot
+  - _id: presentation.resource.gold
+    _resourceKey: art.resource.gold
+  - _id: presentation.boss.stone-golem
+    _resourceKey: art.boss.stone-golem
+  - _id: presentation.research.melee
+    _resourceKey: art.research.melee
+  - _id: presentation.research.ranged
+    _resourceKey: art.research.ranged
+  - _id: presentation.research.magic
+    _resourceKey: art.research.magic
+  - _id: presentation.research.siege
+    _resourceKey: art.research.siege
+  - _id: presentation.map.prologue
+    _resourceKey: art.map.prologue
+  - _id: presentation.map.river-pass
+    _resourceKey: art.map.river-pass
+  - _id: presentation.worker.food.player
+    _resourceKey: art.worker.food.player
+  - _id: presentation.worker.food.enemy
+    _resourceKey: art.worker.food.enemy
+  - _id: presentation.worker.wood.player
+    _resourceKey: art.worker.wood.player
+  - _id: presentation.worker.wood.enemy
+    _resourceKey: art.worker.wood.enemy
+  - _id: presentation.worker.stone.player
+    _resourceKey: art.worker.stone.player
+  - _id: presentation.worker.stone.enemy
+    _resourceKey: art.worker.stone.enemy
+  - _id: presentation.worker.iron.player
+    _resourceKey: art.worker.iron.player
+  - _id: presentation.worker.iron.enemy
+    _resourceKey: art.worker.iron.enemy
+  - _id: presentation.enemy-order-route
+    _resourceKey: world.enemy-order-route
+  - _id: presentation.reward.building
+    _resourceKey: art.reward.building
+  - _id: presentation.reward.resource
+    _resourceKey: art.reward.resource
+  - _id: presentation.reward.reinforcement
+    _resourceKey: art.reward.reinforcement
+  - _id: presentation.unit.gatherer
+    _resourceKey: art.unit.gatherer
+  - _id: presentation.unit.lumberjack
+    _resourceKey: art.unit.lumberjack
+  - _id: presentation.unit.stonecutter
+    _resourceKey: art.unit.stonecutter
+  - _id: presentation.unit.iron-miner
+    _resourceKey: art.unit.iron-miner
+  - _id: presentation.unit.builder
+    _resourceKey: art.unit.builder
+  - _id: presentation.unit.shield-guard
+    _resourceKey: art.unit.shield-guard
+  - _id: presentation.unit.archer
+    _resourceKey: art.unit.archer
+  - _id: presentation.unit.siege-ram
+    _resourceKey: art.unit.siege-ram
+  - _id: presentation.unit.heavy-warrior
+    _resourceKey: art.unit.heavy-warrior
+  - _id: presentation.unit.mage
+    _resourceKey: art.unit.mage
+  - _id: presentation.unit.longbow
+    _resourceKey: art.unit.longbow
+  - _id: presentation.unit.cannon
+    _resourceKey: art.unit.cannon
+  - _id: presentation.building.pasture
+    _resourceKey: art.building.pasture
+  - _id: presentation.building.winery
+    _resourceKey: art.building.winery
+  - _id: presentation.building.sawmill
+    _resourceKey: art.building.sawmill
+  - _id: presentation.building.stoneworks
+    _resourceKey: art.building.stoneworks
+  - _id: presentation.building.iron-smelter
+    _resourceKey: art.building.iron-smelter
+  - _id: presentation.building.warehouse
+    _resourceKey: art.building.warehouse
+  - _id: presentation.building.shield-camp
+    _resourceKey: art.building.shield-camp
+  - _id: presentation.building.archer-camp
+    _resourceKey: art.building.archer-camp
+  - _id: presentation.building.ram-camp
+    _resourceKey: art.building.ram-camp
+  - _id: presentation.building.heavy-warrior-camp
+    _resourceKey: art.building.heavy-warrior-camp
+  - _id: presentation.building.mage-camp
+    _resourceKey: art.building.mage-camp
+  - _id: presentation.building.longbow-camp
+    _resourceKey: art.building.longbow-camp
+  - _id: presentation.building.cannon-camp
+    _resourceKey: art.building.cannon-camp
+  - _id: presentation.building.research-lab
+    _resourceKey: art.building.research-lab
+  - _id: presentation.building.arrow-tower
+    _resourceKey: art.building.arrow-tower
+  - _id: presentation.building.gatherer-lodge
+    _resourceKey: art.building.gatherer-lodge
+  - _id: presentation.building.wood-gatherer-camp
+    _resourceKey: art.building.wood-gatherer-camp
+  - _id: presentation.building.stone-gatherer-camp
+    _resourceKey: art.building.stone-gatherer-camp
+  - _id: presentation.building.iron-gatherer-camp
+    _resourceKey: art.building.iron-gatherer-camp
+  - _id: presentation.card.building.pasture
+    _resourceKey: art.building.pasture
+  - _id: presentation.card.building.winery
+    _resourceKey: art.building.winery
+  - _id: presentation.card.building.sawmill
+    _resourceKey: art.building.sawmill
+  - _id: presentation.card.building.stoneworks
+    _resourceKey: art.building.stoneworks
+  - _id: presentation.card.building.iron-smelter
+    _resourceKey: art.building.iron-smelter
+  - _id: presentation.card.building.warehouse
+    _resourceKey: art.building.warehouse
+  - _id: presentation.card.building.shield-camp
+    _resourceKey: art.building.shield-camp
+  - _id: presentation.card.building.archer-camp
+    _resourceKey: art.building.archer-camp
+  - _id: presentation.card.building.ram-camp
+    _resourceKey: art.building.ram-camp
+  - _id: presentation.card.building.heavy-warrior-camp
+    _resourceKey: art.building.heavy-warrior-camp
+  - _id: presentation.card.building.mage-camp
+    _resourceKey: art.building.mage-camp
+  - _id: presentation.card.building.longbow-camp
+    _resourceKey: art.building.longbow-camp
+  - _id: presentation.card.building.cannon-camp
+    _resourceKey: art.building.cannon-camp
+  - _id: presentation.card.building.research-lab
+    _resourceKey: art.building.research-lab
+  - _id: presentation.card.building.gatherer-lodge
+    _resourceKey: art.building.gatherer-lodge
+  - _id: presentation.card.building.wood-gatherer-camp
+    _resourceKey: art.building.wood-gatherer-camp
+  - _id: presentation.card.building.stone-gatherer-camp
+    _resourceKey: art.building.stone-gatherer-camp
+  - _id: presentation.card.building.iron-gatherer-camp
+    _resourceKey: art.building.iron-gatherer-camp
+  - _id: presentation.card.battlefield.arrow-tower
+    _resourceKey: art.building.arrow-tower
+  - _id: presentation.card.tactic.field-rations
+    _resourceKey: art.card.tactic.field-rations
+  - _id: presentation.card.tactic.emergency-supplies
+    _resourceKey: art.card.tactic.emergency-supplies
+  - _id: presentation.card.tactic.arrow-rain
+    _resourceKey: art.card.tactic.arrow-rain
+  - _id: presentation.card.soldier.shield-guard
+    _resourceKey: art.unit.shield-guard
+  - _id: presentation.card.soldier.archer
+    _resourceKey: art.unit.archer
+  - _id: presentation.card.soldier.siege-ram
+    _resourceKey: art.unit.siege-ram
+  - _id: presentation.card.soldier.heavy-warrior
+    _resourceKey: art.unit.heavy-warrior
+  - _id: presentation.card.soldier.mage
+    _resourceKey: art.unit.mage
+  - _id: presentation.card.soldier.longbow
+    _resourceKey: art.unit.longbow
+  - _id: presentation.card.soldier.cannon
+    _resourceKey: art.unit.cannon
+  - _id: presentation.card.reinforcement.shield-pair
+    _resourceKey: art.unit.shield-guard
+  - _id: presentation.card.reinforcement.archer-pair
+    _resourceKey: art.unit.archer
+  - _id: presentation.card.reinforcement.shield-archer
+    _resourceKey: art.unit.shield-guard
+  - _id: presentation.card.reinforcement.ram-shield
+    _resourceKey: art.unit.siege-ram
+  - _id: presentation.card.reinforcement.heavy-archers
+    _resourceKey: art.unit.heavy-warrior
+  - _id: presentation.card.reinforcement.mage-shields
+    _resourceKey: art.unit.mage
+  - _id: presentation.card.reinforcement.longbows-shield
+    _resourceKey: art.unit.longbow
+  - _id: presentation.card.reinforcement.elite-trio
+    _resourceKey: art.unit.heavy-warrior
+  - _id: presentation.card.reinforcement.cannon-shields
+    _resourceKey: art.unit.cannon
+  - _id: presentation.card.reinforcement.ram-archers
+    _resourceKey: art.unit.siege-ram
+  - _id: presentation.world.unit.shield-guard.player
+    _resourceKey: world.unit.shield.player
+  - _id: presentation.world.unit.shield-guard.enemy
+    _resourceKey: world.unit.shield.enemy
+  - _id: presentation.world.unit.archer.player
+    _resourceKey: world.unit.archer.player
+  - _id: presentation.world.unit.archer.enemy
+    _resourceKey: world.unit.archer.enemy
+  - _id: presentation.world.unit.siege-ram.player
+    _resourceKey: world.unit.ram.player
+  - _id: presentation.world.unit.siege-ram.enemy
+    _resourceKey: world.unit.ram.enemy
+  - _id: presentation.world.unit.heavy-warrior.player
+    _resourceKey: world.unit.heavy-warrior.player
+  - _id: presentation.world.unit.heavy-warrior.enemy
+    _resourceKey: world.unit.heavy-warrior.enemy
+  - _id: presentation.world.unit.mage.player
+    _resourceKey: world.unit.mage.player
+  - _id: presentation.world.unit.mage.enemy
+    _resourceKey: world.unit.mage.enemy
+  - _id: presentation.world.unit.longbow.player
+    _resourceKey: world.unit.longbow.player
+  - _id: presentation.world.unit.longbow.enemy
+    _resourceKey: world.unit.longbow.enemy
+  - _id: presentation.world.unit.cannon.player
+    _resourceKey: world.unit.cannon.player
+  - _id: presentation.world.unit.cannon.enemy
+    _resourceKey: world.unit.cannon.enemy
+  - _id: presentation.world.projectile.arrow
+    _resourceKey: world.projectile.arrow
+  - _id: presentation.world.projectile.fireball
+    _resourceKey: world.projectile.fireball
+  - _id: presentation.world.projectile.cannonball
+    _resourceKey: world.projectile.cannonball

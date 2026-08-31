@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59472961c5be3345831b23fbe58cf87, type: 3}
+  m_Name: GameContentConfig
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.GameContentConfig
+  _schemaVersion: 14
+  _resourceCatalog: {fileID: 11400000, guid: 586733d07716cd24081b45c678dbdbc8, type: 2}
+  _cardCatalog: {fileID: 11400000, guid: 12c6ecb254de03142a49c6b7e1e653fa, type: 2}
+  _buildingCatalog: {fileID: 11400000, guid: 75f92dcbc2392af47b1bf2da12fc7edb, type: 2}
+  _unitCatalog: {fileID: 11400000, guid: f979e71bb5f66174d9fded4315b9dcbf, type: 2}
+  _battlefieldCatalog: {fileID: 11400000, guid: 81f2c2ebbb13534459df58f00d372b1d, type: 2}
+  _bossCatalog: {fileID: 11400000, guid: 3d6f69c87a7a1d649a0810fd7104f6e6, type: 2}
+  _rewardCatalog: {fileID: 11400000, guid: 0cf8004243e1f0945a00bb4a30226230, type: 2}
+  _progressionConfig: {fileID: 11400000, guid: 709800ee472c6ab4f87c9fb9b21d5fd0, type: 2}
+  _stageEffectCatalog: {fileID: 11400000, guid: 58f9fa20f015cb144bcaeb4d85e86b74, type: 2}
+  _sceneKeyCatalog: {fileID: 11400000, guid: 9f217d9c61040b949b2515229135e2b5, type: 2}
+  _presentationCatalog: {fileID: 11400000, guid: 4fc54d911f627cf4bb6e9ba87eeebcb2, type: 2}

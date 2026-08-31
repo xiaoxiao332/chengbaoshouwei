@@ -1,0 +1,1292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932ec699a01013341858f5587b610dbe, type: 3}
+  m_Name: StageEffectCatalog
+  m_EditorClassIdentifier: FortressFrontier.Runtime::FortressFrontier.Runtime.Content.StageEffectCatalog
+  _campaignStages:
+  - _id: stage.prologue
+    _prerequisiteStageId: 
+    _unlockedBattlefieldIds:
+    - battlefield.prologue
+    _purchasableCardIds:
+    - card.building.pasture
+    - card.building.winery
+    - card.building.sawmill
+    - card.building.stoneworks
+    - card.building.iron-smelter
+    - card.building.warehouse
+    - card.building.shield-camp
+    - card.building.archer-camp
+    - card.building.ram-camp
+    - card.building.heavy-warrior-camp
+    - card.building.mage-camp
+    - card.building.longbow-camp
+    - card.building.cannon-camp
+    - card.building.research-lab
+    - card.building.gatherer-lodge
+    - card.building.wood-gatherer-camp
+    - card.building.stone-gatherer-camp
+    - card.building.iron-gatherer-camp
+    - card.battlefield.arrow-tower
+    - card.tactic.field-rations
+    - card.tactic.emergency-supplies
+    - card.tactic.arrow-rain
+    - card.soldier.shield-guard
+    - card.soldier.archer
+    - card.soldier.siege-ram
+    - card.soldier.heavy-warrior
+    - card.soldier.mage
+    - card.soldier.longbow
+    - card.soldier.cannon
+  - _id: stage.river-pass
+    _prerequisiteStageId: stage.prologue
+    _unlockedBattlefieldIds:
+    - battlefield.river-pass
+    _purchasableCardIds:
+    - card.building.pasture
+    - card.building.winery
+    - card.building.sawmill
+    - card.building.stoneworks
+    - card.building.iron-smelter
+    - card.building.warehouse
+    - card.building.shield-camp
+    - card.building.archer-camp
+    - card.building.ram-camp
+    - card.building.heavy-warrior-camp
+    - card.building.mage-camp
+    - card.building.longbow-camp
+    - card.building.cannon-camp
+    - card.building.research-lab
+    - card.building.gatherer-lodge
+    - card.building.wood-gatherer-camp
+    - card.building.stone-gatherer-camp
+    - card.building.iron-gatherer-camp
+    - card.battlefield.arrow-tower
+    - card.tactic.field-rations
+    - card.tactic.emergency-supplies
+    - card.tactic.arrow-rain
+    - card.soldier.shield-guard
+    - card.soldier.archer
+    - card.soldier.siege-ram
+    - card.soldier.heavy-warrior
+    - card.soldier.mage
+    - card.soldier.longbow
+    - card.soldier.cannon
+  _mapModes:
+  - _id: mode.prologue.peaceful
+    _kind: 0
+    _aiDoctrineId: doctrine.development
+    _difficultyRulesId: difficulty.standard
+    _aiPhaseProfileId: ai-phase.standard
+    _aiUtilityProfileId: ai-utility.0
+    _enemyEconomyProfileId: enemy-economy.0
+    _enemyUnitPoolId: enemy-unit-pool.prologue
+    _rewardTableId: reward.prologue
+    _rewardMultiplierMilli: 1000
+  - _id: mode.prologue.offensive
+    _kind: 1
+    _aiDoctrineId: doctrine.offensive
+    _difficultyRulesId: difficulty.standard-fast
+    _aiPhaseProfileId: ai-phase.standard
+    _aiUtilityProfileId: ai-utility.1
+    _enemyEconomyProfileId: enemy-economy.1
+    _enemyUnitPoolId: enemy-unit-pool.prologue
+    _rewardTableId: reward.prologue
+    _rewardMultiplierMilli: 1250
+  - _id: mode.prologue.nightmare
+    _kind: 2
+    _aiDoctrineId: doctrine.adaptive
+    _difficultyRulesId: difficulty.nightmare
+    _aiPhaseProfileId: ai-phase.standard
+    _aiUtilityProfileId: ai-utility.2
+    _enemyEconomyProfileId: enemy-economy.2
+    _enemyUnitPoolId: enemy-unit-pool.prologue
+    _rewardTableId: reward.prologue
+    _rewardMultiplierMilli: 1500
+  - _id: mode.river-pass.peaceful
+    _kind: 0
+    _aiDoctrineId: doctrine.development
+    _difficultyRulesId: difficulty.standard
+    _aiPhaseProfileId: ai-phase.standard
+    _aiUtilityProfileId: ai-utility.0
+    _enemyEconomyProfileId: enemy-economy.0
+    _enemyUnitPoolId: enemy-unit-pool.prologue
+    _rewardTableId: reward.river-pass
+    _rewardMultiplierMilli: 1000
+  - _id: mode.river-pass.offensive
+    _kind: 1
+    _aiDoctrineId: doctrine.offensive
+    _difficultyRulesId: difficulty.standard-fast
+    _aiPhaseProfileId: ai-phase.standard
+    _aiUtilityProfileId: ai-utility.1
+    _enemyEconomyProfileId: enemy-economy.1
+    _enemyUnitPoolId: enemy-unit-pool.prologue
+    _rewardTableId: reward.river-pass
+    _rewardMultiplierMilli: 1250
+  - _id: mode.river-pass.nightmare
+    _kind: 2
+    _aiDoctrineId: doctrine.adaptive
+    _difficultyRulesId: difficulty.nightmare
+    _aiPhaseProfileId: ai-phase.standard
+    _aiUtilityProfileId: ai-utility.2
+    _enemyEconomyProfileId: enemy-economy.2
+    _enemyUnitPoolId: enemy-unit-pool.prologue
+    _rewardTableId: reward.river-pass
+    _rewardMultiplierMilli: 1500
+  _aiPhaseProfiles:
+  - _id: ai-phase.standard
+    _firstProbeStartTick: 600
+    _firstProbeEndTick: 800
+    _phaseStartTicks: 00000000b80b000070170000
+    _publicAccelerationStartTick: 9000
+    _publicProductionMultiplierMilli: 2000
+    _phases:
+    - _id: phase.development
+      _startTick: 0
+      _allowedIntentIds:
+      - intent.develop
+      - intent.reserve
+      - intent.research
+      - intent.hold
+      - intent.assault
+      _baseIntentWeights:
+      - _intentId: intent.develop
+        _weight: 90
+      - _intentId: intent.hold
+        _weight: 25
+      - _intentId: intent.assault
+        _weight: 20
+      - _intentId: intent.raid-economy
+        _weight: 15
+      - _intentId: intent.build-tower
+        _weight: 20
+      - _intentId: intent.research
+        _weight: 75
+      - _intentId: intent.reserve
+        _weight: 70
+      _publicEventIds: []
+    - _id: phase.contest
+      _startTick: 3000
+      _allowedIntentIds:
+      - intent.develop
+      - intent.hold
+      - intent.assault
+      - intent.raid-economy
+      - intent.build-tower
+      - intent.research
+      - intent.reserve
+      _baseIntentWeights:
+      - _intentId: intent.develop
+        _weight: 35
+      - _intentId: intent.hold
+        _weight: 75
+      - _intentId: intent.assault
+        _weight: 55
+      - _intentId: intent.raid-economy
+        _weight: 80
+      - _intentId: intent.build-tower
+        _weight: 70
+      - _intentId: intent.research
+        _weight: 45
+      - _intentId: intent.reserve
+        _weight: 30
+      _publicEventIds: []
+    - _id: phase.decisive
+      _startTick: 6000
+      _allowedIntentIds:
+      - intent.hold
+      - intent.assault
+      - intent.raid-economy
+      - intent.research
+      - intent.build-tower
+      - intent.reserve
+      _baseIntentWeights:
+      - _intentId: intent.develop
+        _weight: 20
+      - _intentId: intent.hold
+        _weight: 85
+      - _intentId: intent.assault
+        _weight: 100
+      - _intentId: intent.raid-economy
+        _weight: 55
+      - _intentId: intent.build-tower
+        _weight: 45
+      - _intentId: intent.research
+        _weight: 25
+      - _intentId: intent.reserve
+        _weight: 10
+      _publicEventIds: []
+  _aiUtilityProfiles:
+  - _id: ai-utility.0
+    _temperatureMilli: 900
+    _decisionIntervalTicks: 100
+    _featureCoefficients:
+    - _featureId: feature.resource-pressure
+      _intentId: intent.develop
+      _coefficient: 160
+    - _featureId: feature.reserve
+      _intentId: intent.develop
+      _coefficient: 60
+    - _featureId: feature.enemy-wall-danger
+      _intentId: intent.hold
+      _coefficient: 175
+    - _featureId: feature.reserve
+      _intentId: intent.hold
+      _coefficient: 60
+    - _featureId: feature.player-wall-damage
+      _intentId: intent.assault
+      _coefficient: 190
+    - _featureId: feature.boss-event
+      _intentId: intent.assault
+      _coefficient: 140
+    - _featureId: feature.reserve
+      _intentId: intent.raid-economy
+      _coefficient: 205
+    - _featureId: feature.boss-event
+      _intentId: intent.raid-economy
+      _coefficient: 60
+    - _featureId: feature.boss-event
+      _intentId: intent.build-tower
+      _coefficient: 220
+    - _featureId: feature.reserve
+      _intentId: intent.build-tower
+      _coefficient: 60
+    - _featureId: feature.research-open
+      _intentId: intent.research
+      _coefficient: 235
+    - _featureId: feature.reserve
+      _intentId: intent.research
+      _coefficient: 60
+    - _featureId: feature.tower-gap
+      _intentId: intent.reserve
+      _coefficient: 250
+    - _featureId: feature.reserve
+      _intentId: intent.reserve
+      _coefficient: 140
+    - _featureId: feature.pressure-due
+      _intentId: intent.assault
+      _coefficient: 280
+    - _featureId: feature.pressure-due
+      _intentId: intent.raid-economy
+      _coefficient: 220
+    - _featureId: feature.pressure-due
+      _intentId: intent.reserve
+      _coefficient: 90
+    - _featureId: feature.recovery-needed
+      _intentId: intent.hold
+      _coefficient: 220
+    - _featureId: feature.recovery-needed
+      _intentId: intent.reserve
+      _coefficient: 260
+    - _featureId: feature.recovery-needed
+      _intentId: intent.develop
+      _coefficient: 160
+    - _featureId: feature.overextension
+      _intentId: intent.assault
+      _coefficient: -260
+    - _featureId: feature.overextension
+      _intentId: intent.raid-economy
+      _coefficient: -220
+    - _featureId: feature.overextension
+      _intentId: intent.hold
+      _coefficient: 240
+    _commitments:
+    - _intentId: intent.develop
+      _minimumTicks: 200
+      _policy: 0
+    - _intentId: intent.hold
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.assault
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.raid-economy
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.build-tower
+      _minimumTicks: 80
+      _policy: 3
+    - _intentId: intent.research
+      _minimumTicks: 80
+      _policy: 1
+    - _intentId: intent.reserve
+      _minimumTicks: 80
+      _policy: 1
+    _switchCost: 120
+    _repetitionPenalty: 180
+    _pressureMinIntervalTicks: 550
+    _pressureTargetIntervalTicks: 650
+    _pressureMaxIntervalTicks: 750
+    _activeUnitSoftCap: 22
+    _queuedUnitSoftCap: 8
+    _logisticsThreatMemoryTicks: 300
+    _maxConcurrentLogisticsResponses: 2
+    _emergencyDefenseOverflowUnits: 2
+    _towerEscalationKillCount: 2
+    _softmaxLookupVersion: 1
+  - _id: ai-utility.1
+    _temperatureMilli: 650
+    _decisionIntervalTicks: 90
+    _featureCoefficients:
+    - _featureId: feature.resource-pressure
+      _intentId: intent.develop
+      _coefficient: 160
+    - _featureId: feature.reserve
+      _intentId: intent.develop
+      _coefficient: 60
+    - _featureId: feature.enemy-wall-danger
+      _intentId: intent.hold
+      _coefficient: 175
+    - _featureId: feature.reserve
+      _intentId: intent.hold
+      _coefficient: 60
+    - _featureId: feature.player-wall-damage
+      _intentId: intent.assault
+      _coefficient: 190
+    - _featureId: feature.boss-event
+      _intentId: intent.assault
+      _coefficient: 140
+    - _featureId: feature.reserve
+      _intentId: intent.raid-economy
+      _coefficient: 205
+    - _featureId: feature.boss-event
+      _intentId: intent.raid-economy
+      _coefficient: 60
+    - _featureId: feature.boss-event
+      _intentId: intent.build-tower
+      _coefficient: 220
+    - _featureId: feature.reserve
+      _intentId: intent.build-tower
+      _coefficient: 60
+    - _featureId: feature.research-open
+      _intentId: intent.research
+      _coefficient: 235
+    - _featureId: feature.reserve
+      _intentId: intent.research
+      _coefficient: 60
+    - _featureId: feature.tower-gap
+      _intentId: intent.reserve
+      _coefficient: 250
+    - _featureId: feature.reserve
+      _intentId: intent.reserve
+      _coefficient: 140
+    - _featureId: feature.pressure-due
+      _intentId: intent.assault
+      _coefficient: 280
+    - _featureId: feature.pressure-due
+      _intentId: intent.raid-economy
+      _coefficient: 220
+    - _featureId: feature.pressure-due
+      _intentId: intent.reserve
+      _coefficient: 90
+    - _featureId: feature.recovery-needed
+      _intentId: intent.hold
+      _coefficient: 220
+    - _featureId: feature.recovery-needed
+      _intentId: intent.reserve
+      _coefficient: 260
+    - _featureId: feature.recovery-needed
+      _intentId: intent.develop
+      _coefficient: 160
+    - _featureId: feature.overextension
+      _intentId: intent.assault
+      _coefficient: -260
+    - _featureId: feature.overextension
+      _intentId: intent.raid-economy
+      _coefficient: -220
+    - _featureId: feature.overextension
+      _intentId: intent.hold
+      _coefficient: 240
+    _commitments:
+    - _intentId: intent.develop
+      _minimumTicks: 200
+      _policy: 0
+    - _intentId: intent.hold
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.assault
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.raid-economy
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.build-tower
+      _minimumTicks: 80
+      _policy: 3
+    - _intentId: intent.research
+      _minimumTicks: 80
+      _policy: 1
+    - _intentId: intent.reserve
+      _minimumTicks: 80
+      _policy: 1
+    _switchCost: 120
+    _repetitionPenalty: 180
+    _pressureMinIntervalTicks: 350
+    _pressureTargetIntervalTicks: 450
+    _pressureMaxIntervalTicks: 550
+    _activeUnitSoftCap: 24
+    _queuedUnitSoftCap: 10
+    _logisticsThreatMemoryTicks: 300
+    _maxConcurrentLogisticsResponses: 2
+    _emergencyDefenseOverflowUnits: 2
+    _towerEscalationKillCount: 2
+    _softmaxLookupVersion: 1
+  - _id: ai-utility.2
+    _temperatureMilli: 450
+    _decisionIntervalTicks: 80
+    _featureCoefficients:
+    - _featureId: feature.resource-pressure
+      _intentId: intent.develop
+      _coefficient: 160
+    - _featureId: feature.reserve
+      _intentId: intent.develop
+      _coefficient: 60
+    - _featureId: feature.enemy-wall-danger
+      _intentId: intent.hold
+      _coefficient: 175
+    - _featureId: feature.reserve
+      _intentId: intent.hold
+      _coefficient: 60
+    - _featureId: feature.player-wall-damage
+      _intentId: intent.assault
+      _coefficient: 190
+    - _featureId: feature.boss-event
+      _intentId: intent.assault
+      _coefficient: 140
+    - _featureId: feature.reserve
+      _intentId: intent.raid-economy
+      _coefficient: 205
+    - _featureId: feature.boss-event
+      _intentId: intent.raid-economy
+      _coefficient: 60
+    - _featureId: feature.boss-event
+      _intentId: intent.build-tower
+      _coefficient: 220
+    - _featureId: feature.reserve
+      _intentId: intent.build-tower
+      _coefficient: 60
+    - _featureId: feature.research-open
+      _intentId: intent.research
+      _coefficient: 235
+    - _featureId: feature.reserve
+      _intentId: intent.research
+      _coefficient: 60
+    - _featureId: feature.tower-gap
+      _intentId: intent.reserve
+      _coefficient: 250
+    - _featureId: feature.reserve
+      _intentId: intent.reserve
+      _coefficient: 140
+    - _featureId: feature.pressure-due
+      _intentId: intent.assault
+      _coefficient: 280
+    - _featureId: feature.pressure-due
+      _intentId: intent.raid-economy
+      _coefficient: 220
+    - _featureId: feature.pressure-due
+      _intentId: intent.reserve
+      _coefficient: 90
+    - _featureId: feature.recovery-needed
+      _intentId: intent.hold
+      _coefficient: 220
+    - _featureId: feature.recovery-needed
+      _intentId: intent.reserve
+      _coefficient: 260
+    - _featureId: feature.recovery-needed
+      _intentId: intent.develop
+      _coefficient: 160
+    - _featureId: feature.overextension
+      _intentId: intent.assault
+      _coefficient: -260
+    - _featureId: feature.overextension
+      _intentId: intent.raid-economy
+      _coefficient: -220
+    - _featureId: feature.overextension
+      _intentId: intent.hold
+      _coefficient: 240
+    _commitments:
+    - _intentId: intent.develop
+      _minimumTicks: 200
+      _policy: 0
+    - _intentId: intent.hold
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.assault
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.raid-economy
+      _minimumTicks: 150
+      _policy: 0
+    - _intentId: intent.build-tower
+      _minimumTicks: 80
+      _policy: 3
+    - _intentId: intent.research
+      _minimumTicks: 80
+      _policy: 1
+    - _intentId: intent.reserve
+      _minimumTicks: 80
+      _policy: 1
+    _switchCost: 120
+    _repetitionPenalty: 180
+    _pressureMinIntervalTicks: 300
+    _pressureTargetIntervalTicks: 375
+    _pressureMaxIntervalTicks: 450
+    _activeUnitSoftCap: 26
+    _queuedUnitSoftCap: 10
+    _logisticsThreatMemoryTicks: 300
+    _maxConcurrentLogisticsResponses: 2
+    _emergencyDefenseOverflowUnits: 2
+    _towerEscalationKillCount: 2
+    _softmaxLookupVersion: 1
+  _enemyEconomyProfiles:
+  - _id: enemy-economy.0
+    _trainingTimeMultiplierMilli: 1000
+    _economicEfficiencyMilli: 1000
+    _initialInventory:
+    - _resourceId: resource.meat
+      _amount: 160
+    - _resourceId: resource.food
+      _amount: 20
+    - _resourceId: resource.wine
+      _amount: 60
+    - _resourceId: resource.plank
+      _amount: 40
+    - _resourceId: resource.stone
+      _amount: 100
+    - _resourceId: resource.iron-ingot
+      _amount: 100
+    _facilities:
+    - _buildingId: building.gatherer-lodge
+      _level: 1
+    - _buildingId: building.wood-gatherer-camp
+      _level: 1
+    - _buildingId: building.winery
+      _level: 1
+    - _buildingId: building.iron-smelter
+      _level: 1
+    _camps:
+    - _unitId: unit.shield-guard
+      _slotCount: 1
+    - _unitId: unit.archer
+      _slotCount: 1
+    - _unitId: unit.siege-ram
+      _slotCount: 1
+    - _unitId: unit.heavy-warrior
+      _slotCount: 1
+    - _unitId: unit.mage
+      _slotCount: 1
+    - _unitId: unit.longbow
+      _slotCount: 1
+    - _unitId: unit.cannon
+      _slotCount: 1
+    _initialHandCardIds:
+    - card.building.gatherer-lodge
+    - card.building.wood-gatherer-camp
+    - card.building.winery
+    - card.building.sawmill
+    - card.building.shield-camp
+    - card.building.archer-camp
+    _formations:
+    - _id: formation.probe
+      _unitIds:
+      - unit.archer
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 01000000
+    - _id: formation.shield-archer
+      _unitIds:
+      - unit.shield-guard
+      - unit.archer
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000002000000
+    - _id: formation.economy-raid
+      _unitIds:
+      - unit.archer
+      - unit.archer
+      _allowedIntentIds:
+      - intent.raid-economy
+      _quantities: 0100000002000000
+    - _id: formation.siege-cover
+      _unitIds:
+      - unit.shield-guard
+      - unit.siege-ram
+      _allowedIntentIds:
+      - intent.assault
+      _quantities: 0200000001000000
+    - _id: formation.magic
+      _unitIds:
+      - unit.heavy-warrior
+      - unit.mage
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000001000000
+    - _id: formation.longbow
+      _unitIds:
+      - unit.shield-guard
+      - unit.longbow
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000002000000
+    - _id: formation.cannon
+      _unitIds:
+      - unit.heavy-warrior
+      - unit.cannon
+      _allowedIntentIds:
+      - intent.assault
+      _quantities: 0200000001000000
+    - _id: formation.logistics-guard
+      _unitIds:
+      - unit.shield-guard
+      _allowedIntentIds:
+      - intent.hold
+      _quantities: 01000000
+    _defenseReserveFormationId: formation.logistics-guard
+    _reserveRatioMilli: 420
+    _gatherCycleTicks: 70
+    _processingCycleTicks: 50
+    _builderRespawnTicks: 80
+  - _id: enemy-economy.1
+    _trainingTimeMultiplierMilli: 1000
+    _economicEfficiencyMilli: 1050
+    _initialInventory:
+    - _resourceId: resource.meat
+      _amount: 160
+    - _resourceId: resource.food
+      _amount: 20
+    - _resourceId: resource.wine
+      _amount: 60
+    - _resourceId: resource.plank
+      _amount: 40
+    - _resourceId: resource.stone
+      _amount: 100
+    - _resourceId: resource.iron-ingot
+      _amount: 100
+    _facilities:
+    - _buildingId: building.gatherer-lodge
+      _level: 1
+    - _buildingId: building.wood-gatherer-camp
+      _level: 1
+    - _buildingId: building.winery
+      _level: 1
+    - _buildingId: building.iron-smelter
+      _level: 1
+    _camps:
+    - _unitId: unit.shield-guard
+      _slotCount: 1
+    - _unitId: unit.archer
+      _slotCount: 1
+    - _unitId: unit.siege-ram
+      _slotCount: 1
+    - _unitId: unit.heavy-warrior
+      _slotCount: 1
+    - _unitId: unit.mage
+      _slotCount: 1
+    - _unitId: unit.longbow
+      _slotCount: 1
+    - _unitId: unit.cannon
+      _slotCount: 1
+    _initialHandCardIds:
+    - card.building.gatherer-lodge
+    - card.building.wood-gatherer-camp
+    - card.building.winery
+    - card.building.sawmill
+    - card.building.shield-camp
+    - card.building.archer-camp
+    _formations:
+    - _id: formation.probe
+      _unitIds:
+      - unit.archer
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 01000000
+    - _id: formation.shield-archer
+      _unitIds:
+      - unit.shield-guard
+      - unit.archer
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000002000000
+    - _id: formation.economy-raid
+      _unitIds:
+      - unit.archer
+      - unit.archer
+      _allowedIntentIds:
+      - intent.raid-economy
+      _quantities: 0100000002000000
+    - _id: formation.siege-cover
+      _unitIds:
+      - unit.shield-guard
+      - unit.siege-ram
+      _allowedIntentIds:
+      - intent.assault
+      _quantities: 0200000001000000
+    - _id: formation.magic
+      _unitIds:
+      - unit.heavy-warrior
+      - unit.mage
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000001000000
+    - _id: formation.longbow
+      _unitIds:
+      - unit.shield-guard
+      - unit.longbow
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000002000000
+    - _id: formation.cannon
+      _unitIds:
+      - unit.heavy-warrior
+      - unit.cannon
+      _allowedIntentIds:
+      - intent.assault
+      _quantities: 0200000001000000
+    - _id: formation.logistics-guard
+      _unitIds:
+      - unit.shield-guard
+      _allowedIntentIds:
+      - intent.hold
+      _quantities: 01000000
+    _defenseReserveFormationId: formation.logistics-guard
+    _reserveRatioMilli: 220
+    _gatherCycleTicks: 70
+    _processingCycleTicks: 50
+    _builderRespawnTicks: 80
+  - _id: enemy-economy.2
+    _trainingTimeMultiplierMilli: 950
+    _economicEfficiencyMilli: 1100
+    _initialInventory:
+    - _resourceId: resource.meat
+      _amount: 160
+    - _resourceId: resource.food
+      _amount: 20
+    - _resourceId: resource.wine
+      _amount: 60
+    - _resourceId: resource.plank
+      _amount: 40
+    - _resourceId: resource.stone
+      _amount: 100
+    - _resourceId: resource.iron-ingot
+      _amount: 100
+    _facilities:
+    - _buildingId: building.gatherer-lodge
+      _level: 1
+    - _buildingId: building.wood-gatherer-camp
+      _level: 1
+    - _buildingId: building.winery
+      _level: 1
+    - _buildingId: building.iron-smelter
+      _level: 1
+    _camps:
+    - _unitId: unit.shield-guard
+      _slotCount: 1
+    - _unitId: unit.archer
+      _slotCount: 1
+    - _unitId: unit.siege-ram
+      _slotCount: 1
+    - _unitId: unit.heavy-warrior
+      _slotCount: 1
+    - _unitId: unit.mage
+      _slotCount: 1
+    - _unitId: unit.longbow
+      _slotCount: 1
+    - _unitId: unit.cannon
+      _slotCount: 1
+    _initialHandCardIds:
+    - card.building.gatherer-lodge
+    - card.building.wood-gatherer-camp
+    - card.building.winery
+    - card.building.sawmill
+    - card.building.shield-camp
+    - card.building.archer-camp
+    _formations:
+    - _id: formation.probe
+      _unitIds:
+      - unit.archer
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 01000000
+    - _id: formation.shield-archer
+      _unitIds:
+      - unit.shield-guard
+      - unit.archer
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000002000000
+    - _id: formation.economy-raid
+      _unitIds:
+      - unit.archer
+      - unit.archer
+      _allowedIntentIds:
+      - intent.raid-economy
+      _quantities: 0100000002000000
+    - _id: formation.siege-cover
+      _unitIds:
+      - unit.shield-guard
+      - unit.siege-ram
+      _allowedIntentIds:
+      - intent.assault
+      _quantities: 0200000001000000
+    - _id: formation.magic
+      _unitIds:
+      - unit.heavy-warrior
+      - unit.mage
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000001000000
+    - _id: formation.longbow
+      _unitIds:
+      - unit.shield-guard
+      - unit.longbow
+      _allowedIntentIds:
+      - intent.assault
+      - intent.hold
+      _quantities: 0200000002000000
+    - _id: formation.cannon
+      _unitIds:
+      - unit.heavy-warrior
+      - unit.cannon
+      _allowedIntentIds:
+      - intent.assault
+      _quantities: 0200000001000000
+    - _id: formation.logistics-guard
+      _unitIds:
+      - unit.shield-guard
+      _allowedIntentIds:
+      - intent.hold
+      _quantities: 01000000
+    _defenseReserveFormationId: formation.logistics-guard
+    _reserveRatioMilli: 180
+    _gatherCycleTicks: 70
+    _processingCycleTicks: 50
+    _builderRespawnTicks: 80
+  _aiDoctrines:
+  - _id: doctrine.development
+    _displayName: "\u53D1\u5C55"
+    _intentBiases:
+    - _intentId: intent.develop
+      _weight: 35
+    - _intentId: intent.hold
+      _weight: 5
+    - _intentId: intent.assault
+      _weight: -15
+    - _intentId: intent.raid-economy
+      _weight: -10
+    - _intentId: intent.build-tower
+      _weight: 5
+    - _intentId: intent.research
+      _weight: 30
+    - _intentId: intent.reserve
+      _weight: 35
+  - _id: doctrine.offensive
+    _displayName: "\u8FDB\u653B"
+    _intentBiases:
+    - _intentId: intent.develop
+      _weight: -10
+    - _intentId: intent.hold
+      _weight: 15
+    - _intentId: intent.assault
+      _weight: 35
+    - _intentId: intent.raid-economy
+      _weight: 30
+    - _intentId: intent.build-tower
+      _weight: 10
+    - _intentId: intent.research
+      _weight: 0
+    - _intentId: intent.reserve
+      _weight: -25
+  - _id: doctrine.adaptive
+    _displayName: "\u81EA\u9002\u5E94"
+    _intentBiases:
+    - _intentId: intent.develop
+      _weight: 0
+    - _intentId: intent.hold
+      _weight: 20
+    - _intentId: intent.assault
+      _weight: 25
+    - _intentId: intent.raid-economy
+      _weight: 20
+    - _intentId: intent.build-tower
+      _weight: 15
+    - _intentId: intent.research
+      _weight: 10
+    - _intentId: intent.reserve
+      _weight: -10
+  _difficultyRules:
+  - _id: difficulty.standard
+    _decisionQualityMilli: 1000
+    _reactionDelayTicks: 20
+    _suboptimalIntervalMinTicks: 600
+    _suboptimalIntervalMaxTicks: 900
+    _trainingTimeMultiplierMilli: 1000
+  - _id: difficulty.standard-fast
+    _decisionQualityMilli: 1050
+    _reactionDelayTicks: 15
+    _suboptimalIntervalMinTicks: 900
+    _suboptimalIntervalMaxTicks: 1200
+    _trainingTimeMultiplierMilli: 1000
+  - _id: difficulty.nightmare
+    _decisionQualityMilli: 1100
+    _reactionDelayTicks: 15
+    _suboptimalIntervalMinTicks: 0
+    _suboptimalIntervalMaxTicks: 0
+    _trainingTimeMultiplierMilli: 950
+  _enemyUnitPools:
+  - _id: enemy-unit-pool.prologue
+    _unitIds:
+    - unit.shield-guard
+    - unit.archer
+    - unit.siege-ram
+    - unit.heavy-warrior
+    - unit.mage
+    - unit.longbow
+    - unit.cannon
+  _resourceActivationWaves:
+  - _id: resource-wave.0.opening
+    _mapModeId: mode.prologue.peaceful
+    _triggerSeconds: 0
+    _nodesPerGroup: 3
+    _groups: 0000000002000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+  - _id: resource-wave.0.central-food-wood
+    _mapModeId: mode.prologue.peaceful
+    _triggerSeconds: 60
+    _nodesPerGroup: 2
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+  - _id: resource-wave.0.central-stone
+    _mapModeId: mode.prologue.peaceful
+    _triggerSeconds: 120
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.raw-stone
+  - _id: resource-wave.0.central-iron
+    _mapModeId: mode.prologue.peaceful
+    _triggerSeconds: 180
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.iron-ore
+  - _id: resource-wave.0.central-weighted-a
+    _mapModeId: mode.prologue.peaceful
+    _triggerSeconds: 240
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.0.central-weighted-b
+    _mapModeId: mode.prologue.peaceful
+    _triggerSeconds: 300
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.1.opening
+    _mapModeId: mode.prologue.offensive
+    _triggerSeconds: 0
+    _nodesPerGroup: 3
+    _groups: 0000000002000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+  - _id: resource-wave.1.central-food-wood
+    _mapModeId: mode.prologue.offensive
+    _triggerSeconds: 60
+    _nodesPerGroup: 2
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+  - _id: resource-wave.1.central-stone
+    _mapModeId: mode.prologue.offensive
+    _triggerSeconds: 120
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.raw-stone
+  - _id: resource-wave.1.central-iron
+    _mapModeId: mode.prologue.offensive
+    _triggerSeconds: 180
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.iron-ore
+  - _id: resource-wave.1.central-weighted-a
+    _mapModeId: mode.prologue.offensive
+    _triggerSeconds: 240
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.1.central-weighted-b
+    _mapModeId: mode.prologue.offensive
+    _triggerSeconds: 300
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.2.opening
+    _mapModeId: mode.prologue.nightmare
+    _triggerSeconds: 0
+    _nodesPerGroup: 3
+    _groups: 0000000002000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+  - _id: resource-wave.2.central-food-wood
+    _mapModeId: mode.prologue.nightmare
+    _triggerSeconds: 60
+    _nodesPerGroup: 2
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+  - _id: resource-wave.2.central-stone
+    _mapModeId: mode.prologue.nightmare
+    _triggerSeconds: 120
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.raw-stone
+  - _id: resource-wave.2.central-iron
+    _mapModeId: mode.prologue.nightmare
+    _triggerSeconds: 180
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.iron-ore
+  - _id: resource-wave.2.central-weighted-a
+    _mapModeId: mode.prologue.nightmare
+    _triggerSeconds: 240
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.2.central-weighted-b
+    _mapModeId: mode.prologue.nightmare
+    _triggerSeconds: 300
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.3.opening
+    _mapModeId: mode.river-pass.peaceful
+    _triggerSeconds: 0
+    _nodesPerGroup: 3
+    _groups: 0000000002000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+  - _id: resource-wave.3.central-food-wood
+    _mapModeId: mode.river-pass.peaceful
+    _triggerSeconds: 60
+    _nodesPerGroup: 2
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+  - _id: resource-wave.3.central-stone
+    _mapModeId: mode.river-pass.peaceful
+    _triggerSeconds: 120
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.raw-stone
+  - _id: resource-wave.3.central-iron
+    _mapModeId: mode.river-pass.peaceful
+    _triggerSeconds: 180
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.iron-ore
+  - _id: resource-wave.3.central-weighted-a
+    _mapModeId: mode.river-pass.peaceful
+    _triggerSeconds: 240
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.3.central-weighted-b
+    _mapModeId: mode.river-pass.peaceful
+    _triggerSeconds: 300
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.4.opening
+    _mapModeId: mode.river-pass.offensive
+    _triggerSeconds: 0
+    _nodesPerGroup: 3
+    _groups: 0000000002000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+  - _id: resource-wave.4.central-food-wood
+    _mapModeId: mode.river-pass.offensive
+    _triggerSeconds: 60
+    _nodesPerGroup: 2
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+  - _id: resource-wave.4.central-stone
+    _mapModeId: mode.river-pass.offensive
+    _triggerSeconds: 120
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.raw-stone
+  - _id: resource-wave.4.central-iron
+    _mapModeId: mode.river-pass.offensive
+    _triggerSeconds: 180
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.iron-ore
+  - _id: resource-wave.4.central-weighted-a
+    _mapModeId: mode.river-pass.offensive
+    _triggerSeconds: 240
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.4.central-weighted-b
+    _mapModeId: mode.river-pass.offensive
+    _triggerSeconds: 300
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.5.opening
+    _mapModeId: mode.river-pass.nightmare
+    _triggerSeconds: 0
+    _nodesPerGroup: 3
+    _groups: 0000000002000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+  - _id: resource-wave.5.central-food-wood
+    _mapModeId: mode.river-pass.nightmare
+    _triggerSeconds: 60
+    _nodesPerGroup: 2
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+  - _id: resource-wave.5.central-stone
+    _mapModeId: mode.river-pass.nightmare
+    _triggerSeconds: 120
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.raw-stone
+  - _id: resource-wave.5.central-iron
+    _mapModeId: mode.river-pass.nightmare
+    _triggerSeconds: 180
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.iron-ore
+  - _id: resource-wave.5.central-weighted-a
+    _mapModeId: mode.river-pass.nightmare
+    _triggerSeconds: 240
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  - _id: resource-wave.5.central-weighted-b
+    _mapModeId: mode.river-pass.nightmare
+    _triggerSeconds: 300
+    _nodesPerGroup: 1
+    _groups: 01000000
+    _allowedResourceIds:
+    - resource.food
+    - resource.wood
+    - resource.raw-stone
+    - resource.iron-ore
+  _heatTiers:
+  - _startTick: 0
+    _rewardCooldownSeconds: 60
+    _aiPressureIntervalMultiplierMilli: 1000
+    _advancedUnitWeightMultiplierMilli: 1000
+  - _startTick: 1800
+    _rewardCooldownSeconds: 55
+    _aiPressureIntervalMultiplierMilli: 950
+    _advancedUnitWeightMultiplierMilli: 1100
+  - _startTick: 3600
+    _rewardCooldownSeconds: 50
+    _aiPressureIntervalMultiplierMilli: 900
+    _advancedUnitWeightMultiplierMilli: 1250
+  - _startTick: 5400
+    _rewardCooldownSeconds: 45
+    _aiPressureIntervalMultiplierMilli: 850
+    _advancedUnitWeightMultiplierMilli: 1450
+  - _startTick: 7200
+    _rewardCooldownSeconds: 45
+    _aiPressureIntervalMultiplierMilli: 800
+    _advancedUnitWeightMultiplierMilli: 1650

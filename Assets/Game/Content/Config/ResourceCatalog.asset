@@ -1,0 +1,1519 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4700f30a3579bb74195b32652b203eda, type: 3}
+  m_Name: ResourceCatalog
+  m_EditorClassIdentifier: FortressFrontier.Infrastructure::FortressFrontier.Infrastructure.Resources.ResourceCatalog
+  _entries:
+  - _id: ui.boot
+    _reference:
+      m_AssetGUID: 596baad11196de7429bcf853778f54c6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: ui.selection
+    _reference:
+      m_AssetGUID: d213ed27f41b614488f458136698f559
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: ui.gameplay
+    _reference:
+      m_AssetGUID: 6e28a51f546d5c1428b7fcbf66470ba3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: ui.result
+    _reference:
+      m_AssetGUID: 2376702050569814db811518a048b541
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: ui.loading
+    _reference:
+      m_AssetGUID: 7dbb72f39dc304e4db8829fe59b07f7f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: ui.fatal-error
+    _reference:
+      m_AssetGUID: 04a372ddd196ee14d8e569f2afa82f56
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: scene.selection
+    _reference:
+      m_AssetGUID: a32a1f08d1decfc409dc4eea0118cdd5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: scene.gameplay
+    _reference:
+      m_AssetGUID: 41fb0152c0b65c64f836cb648be35fde
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: config.game-content
+    _reference:
+      m_AssetGUID: 3b07acd660a4ad24182f47694f8e49aa
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.worker-outbound
+    _reference:
+      m_AssetGUID: bf8a60a0b7e49f742a3843c7fce71e7e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.worker-gathering
+    _reference:
+      m_AssetGUID: 6390d0ac9ba3de442bd6f90192be564c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.worker-returning
+    _reference:
+      m_AssetGUID: 4c8225cd4b308a94f8a89e05439f64d9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.missing-input
+    _reference:
+      m_AssetGUID: d6c54e6d2f3b885459c067b40082c674
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.paused
+    _reference:
+      m_AssetGUID: 678d7e482c6a65a43a123f83617fb177
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.upgrade-hidden
+    _reference:
+      m_AssetGUID: 3a69a5c44471c2544a70cc8f18858e72
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.upgrade-locked
+    _reference:
+      m_AssetGUID: ec7519cd6c2a4bc4e92a915abc84ae21
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.upgrade-ready
+    _reference:
+      m_AssetGUID: fd30e27c41db685419ef654021c2bf95
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.upgrading
+    _reference:
+      m_AssetGUID: 5d797f88672e1d64ea8186b08623d8c1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.upgrade-max
+    _reference:
+      m_AssetGUID: d659bc89fefae1245bbe160798691e86
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.training-waiting
+    _reference:
+      m_AssetGUID: 70065a9d500bb28448c6437f7e495635
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.training-active
+    _reference:
+      m_AssetGUID: 86982234062deef4da254ba4764ae235
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.state.training-deployed
+    _reference:
+      m_AssetGUID: aef3823e3da3f3246869cec3b734750e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.resource.food
+    _reference:
+      m_AssetGUID: 9d29e628394df88489dd51fedc0bcd8c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.resource.wood
+    _reference:
+      m_AssetGUID: fd9244cf4391d9046bc5f0c05401ce11
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.gatherer.player
+    _reference:
+      m_AssetGUID: c89ec8ee8b167bb41b0ac6f5e8e1d029
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.gatherer.enemy
+    _reference:
+      m_AssetGUID: 5d16d95b609be9a46bddfa8153f2c6c5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.shield.player
+    _reference:
+      m_AssetGUID: 64dca05cf06dcc04fb1a73984ed077ac
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.shield.enemy
+    _reference:
+      m_AssetGUID: c2bc1986e8593dc40b90b8ddc78e25fb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.archer.player
+    _reference:
+      m_AssetGUID: 0b4f1eaf67fe5c24fb2cc8d965c2e321
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.archer.enemy
+    _reference:
+      m_AssetGUID: 905ef8949312b2b4195f81dcb763f26f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.raw-stone
+    _reference:
+      m_AssetGUID: e9ef0d5460fafd642ba3973eb233cdc9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.stone
+    _reference:
+      m_AssetGUID: 606aa0eea357e6b4e9c087e91667b35d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.builder
+    _reference:
+      m_AssetGUID: 1682d233699afe045992fec450a4d49e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.arrow-tower
+    _reference:
+      m_AssetGUID: 5cfeca4950ab35c4fb08b054ea5c5327
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.battlefield.arrow-tower
+    _reference:
+      m_AssetGUID: 7d22c83a40d5e614aa2cb13713c1f4bb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.meat
+    _reference:
+      m_AssetGUID: ead1b27bdfd394c46b74f6324132cab8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.wine
+    _reference:
+      m_AssetGUID: d44a1b2a13ca8284d86b7029061e6be1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.plank
+    _reference:
+      m_AssetGUID: f04155bfd63109c4084af8874d5da111
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.iron-ore
+    _reference:
+      m_AssetGUID: 41c09bfecf713084e8d80307bf51117f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.iron-ingot
+    _reference:
+      m_AssetGUID: 25c76e3c28a75e94abf57421a8ac8c8b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.tactic.field-rations
+    _reference:
+      m_AssetGUID: 4affc6e35eb82c84c981611c8ad2afac
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.tactic.emergency-supplies
+    _reference:
+      m_AssetGUID: 2136547b7c044324fa4474f6c5c6bcb5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.tactic.arrow-rain
+    _reference:
+      m_AssetGUID: ba2c778f6b77c2a4ea43cf7237ba0995
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.research.attack
+    _reference:
+      m_AssetGUID: b7bd05537e6fe3f4e8736871b7f22ae2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.research.defense
+    _reference:
+      m_AssetGUID: 1ab5625a16edae546a1d1b7980a525a9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.research.tactics
+    _reference:
+      m_AssetGUID: 2639195868f6e684fb4a60397b7b55d4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.siege-ram
+    _reference:
+      m_AssetGUID: 42ab0961aea0730448d6b01114aeae15
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.arrow-tower.enemy
+    _reference:
+      m_AssetGUID: 85b2a8d118e6ded4e80594cd9a0dff86
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.arrow-tower-site.friendly
+    _reference:
+      m_AssetGUID: e585b54affddb884dba6d09378310d2c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.arrow-tower-site.enemy
+    _reference:
+      m_AssetGUID: 950e911f1965b8148a59e83366553da0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.builder.enemy
+    _reference:
+      m_AssetGUID: 295ff51e0c1cd574b82048403bbd51bb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.siege-ram.enemy
+    _reference:
+      m_AssetGUID: 3a9291438d59321499b34d7d57b427f9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.overlay.wall-crack-01
+    _reference:
+      m_AssetGUID: 75f45fe27179a034cb0fec7ea534ad94
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.overlay.wall-crack-02
+    _reference:
+      m_AssetGUID: 519701a555fdc3842bc0327eb7d831d6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.overlay.wall-crack-03
+    _reference:
+      m_AssetGUID: 4cb85650efda63a47a9a0bb962802ae8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.pickup.boss-reward-core
+    _reference:
+      m_AssetGUID: 86fe7ae0a5611ea409e5c485c15ab319
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.prop.berry
+    _reference:
+      m_AssetGUID: 8e8ca6d1f77328d419c88a6e54138257
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.prop.stone
+    _reference:
+      m_AssetGUID: 63013d5d8a71bcb4e997bab7d82e649a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.prop.supply-node
+    _reference:
+      m_AssetGUID: 23c0661b82e0224408505703cc8ae866
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.prop.tree
+    _reference:
+      m_AssetGUID: cbaad013b462f5f49a54032bd7a5d8d6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.ui.button.primary
+    _reference:
+      m_AssetGUID: c6c776dd601d80048b5ddd9d9e27cb97
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.ui.button.danger
+    _reference:
+      m_AssetGUID: f059c3a101418304d9f27df575f8f615
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.ui.slot
+    _reference:
+      m_AssetGUID: 5444c8de2e627394ebe4332e03dfd8a6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.ui.topbar
+    _reference:
+      m_AssetGUID: 73dd6be7152b21142a19b991dfe39558
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.ui.tab.soldier
+    _reference:
+      m_AssetGUID: 965f0bbd2568dbd458b7f6f0ed40f6de
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.ui.tab.item
+    _reference:
+      m_AssetGUID: b7ed771d0a85c2d4a9a9521a51a36cda
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.resource.raw-stone
+    _reference:
+      m_AssetGUID: 9fe473dfdd174954da6f5a3c5fd8af75
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.food
+    _reference:
+      m_AssetGUID: d16cb4d91c5d41d428a11de65a7fd15e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.wood
+    _reference:
+      m_AssetGUID: 957a4034fd671f941b4adbd07f3d706a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.resource.gold
+    _reference:
+      m_AssetGUID: 6b6add99ad1e1c94dba84f0a4032843e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.boss.stone-golem
+    _reference:
+      m_AssetGUID: 9ebfecdbe79dd3d478ffa690fe9b95ab
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.gatherer
+    _reference:
+      m_AssetGUID: e11087faf7d2dad468a4a4f910ebb518
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.lumberjack
+    _reference:
+      m_AssetGUID: f5cd49f4a5c2e0a428206669e947cea5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.stonecutter
+    _reference:
+      m_AssetGUID: 597a28aa66caaf841b8abfedf4b8c099
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.iron-miner
+    _reference:
+      m_AssetGUID: 10d0a2b55619dad44aa1d7ccee4dd114
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.shield-guard
+    _reference:
+      m_AssetGUID: 1d80518cbcf9b8141b24fdbe4e88953c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.archer
+    _reference:
+      m_AssetGUID: 2467c753647ba2440a7cbbf464ef9721
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.pasture
+    _reference:
+      m_AssetGUID: 1e8daf24fc6eab44a87aef0d2512a37b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.winery
+    _reference:
+      m_AssetGUID: 1e8daf24fc6eab44a87aef0d2512a37b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.sawmill
+    _reference:
+      m_AssetGUID: 6f2112a49596cf54fac83f96e86a9905
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.stoneworks
+    _reference:
+      m_AssetGUID: e181d802005201b4e906a1cd451cfff3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.iron-smelter
+    _reference:
+      m_AssetGUID: afc4bc9fa89562344940dc63b8613a8a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.warehouse
+    _reference:
+      m_AssetGUID: b1a5d854fcd4b6a4996e5454f0b586f4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.shield-camp
+    _reference:
+      m_AssetGUID: fc28dec9f9ba4b247b3cf7a0af2ea6c5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.archer-camp
+    _reference:
+      m_AssetGUID: 86ea1e4755dc5244b97fc72d35c4ec78
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.ram-camp
+    _reference:
+      m_AssetGUID: 1560362c38cbb19468ba0de835142682
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.research-lab
+    _reference:
+      m_AssetGUID: afc4bc9fa89562344940dc63b8613a8a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.pasture
+    _reference:
+      m_AssetGUID: 1e8daf24fc6eab44a87aef0d2512a37b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.winery
+    _reference:
+      m_AssetGUID: 1e8daf24fc6eab44a87aef0d2512a37b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.sawmill
+    _reference:
+      m_AssetGUID: 6f2112a49596cf54fac83f96e86a9905
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.stoneworks
+    _reference:
+      m_AssetGUID: e181d802005201b4e906a1cd451cfff3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.iron-smelter
+    _reference:
+      m_AssetGUID: afc4bc9fa89562344940dc63b8613a8a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.warehouse
+    _reference:
+      m_AssetGUID: b1a5d854fcd4b6a4996e5454f0b586f4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.shield-camp
+    _reference:
+      m_AssetGUID: fc28dec9f9ba4b247b3cf7a0af2ea6c5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.archer-camp
+    _reference:
+      m_AssetGUID: 86ea1e4755dc5244b97fc72d35c4ec78
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.ram-camp
+    _reference:
+      m_AssetGUID: 1560362c38cbb19468ba0de835142682
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.research-lab
+    _reference:
+      m_AssetGUID: afc4bc9fa89562344940dc63b8613a8a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.shield-guard
+    _reference:
+      m_AssetGUID: 1d80518cbcf9b8141b24fdbe4e88953c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.archer
+    _reference:
+      m_AssetGUID: 2467c753647ba2440a7cbbf464ef9721
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.siege-ram
+    _reference:
+      m_AssetGUID: 42ab0961aea0730448d6b01114aeae15
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.resource.iron-ore
+    _reference:
+      m_AssetGUID: c3f155081ee853141a5a0684ec17317a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.ram.player
+    _reference:
+      m_AssetGUID: 7c4979c395e547b4aad5f9aead19c579
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.ram.enemy
+    _reference:
+      m_AssetGUID: f5d1516f7894e0a4cbe7ac6c9238487a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.builder.player
+    _reference:
+      m_AssetGUID: f03cad01348f95a47acc988c07c353c1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.builder.enemy
+    _reference:
+      m_AssetGUID: 6eed5c2f055ea7448b27f441879e20e1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.tower-site.player
+    _reference:
+      m_AssetGUID: d2e143fdf0f75884aa2f932f8c4761d2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.tower-site.enemy
+    _reference:
+      m_AssetGUID: 7caf4d61c52e1e646a18c6a835f0c3e5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.tower.player
+    _reference:
+      m_AssetGUID: 21783e0c6502e744f9fb5d4a110c11d4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.tower.enemy
+    _reference:
+      m_AssetGUID: 206cdb0b5b4bb3847899e27987238aff
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.boss
+    _reference:
+      m_AssetGUID: f800e55cc2ad8b543a7b10e7b469bc72
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.boss-core
+    _reference:
+      m_AssetGUID: 1c9da112483ba6042a1112768f0a9118
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.enemy-order-route
+    _reference:
+      m_AssetGUID: 638c122b78cdfad4887eb79d519696c7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.gatherer-lodge
+    _reference:
+      m_AssetGUID: 5ea366adbbe16c2428dfe04a0d9d4768
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.gatherer-lodge
+    _reference:
+      m_AssetGUID: 5ea366adbbe16c2428dfe04a0d9d4768
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.projectile.arrow
+    _reference:
+      m_AssetGUID: 808700759255d2e4680443eed872b76a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.boss-warning-zone
+    _reference:
+      m_AssetGUID: 42d3e148f87120e47aab40df8d92a880
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.boss-meteor
+    _reference:
+      m_AssetGUID: a941ab4fe14c8e94f99996a1ad249a07
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: ui.settings
+    _reference:
+      m_AssetGUID: cfb4245075d0027408ba11b3985a3b2b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 0
+  - _id: art.research.melee
+    _reference:
+      m_AssetGUID: bbd6a52d53f6de5488807a27ab984ffb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.research.ranged
+    _reference:
+      m_AssetGUID: 055aa5b8a6694944e8af8727d5beb112
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.research.magic
+    _reference:
+      m_AssetGUID: d55e6395f2759c7418bd1d76e80adb32
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.research.siege
+    _reference:
+      m_AssetGUID: 97f0339614ae4474fbc1ae1ebb6f70d3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.map.prologue
+    _reference:
+      m_AssetGUID: 32e8dc896fcb5e7479b596a3f5201ccd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.map.river-pass
+    _reference:
+      m_AssetGUID: a62bc4a6392bd7b4eb1a1077290584fd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.food.player
+    _reference:
+      m_AssetGUID: e11087faf7d2dad468a4a4f910ebb518
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.food.enemy
+    _reference:
+      m_AssetGUID: fdb3006362d645948baa61e59a208eaa
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.wood.player
+    _reference:
+      m_AssetGUID: f5cd49f4a5c2e0a428206669e947cea5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.wood.enemy
+    _reference:
+      m_AssetGUID: ea9c2d9e0f18ecc41bec6d012c60fe9e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.stone.player
+    _reference:
+      m_AssetGUID: 597a28aa66caaf841b8abfedf4b8c099
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.stone.enemy
+    _reference:
+      m_AssetGUID: df3e3acf08db24141bcf5b15e488c068
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.iron.player
+    _reference:
+      m_AssetGUID: 10d0a2b55619dad44aa1d7ccee4dd114
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.worker.iron.enemy
+    _reference:
+      m_AssetGUID: 5f47ce37e4cc64f4ea7c0c9995eb0449
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.heavy-warrior
+    _reference:
+      m_AssetGUID: 6a2cf83a67390ff47ae7aaf754061e87
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.mage
+    _reference:
+      m_AssetGUID: c84c46e0e2018b44186e0f0d5205af56
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.longbow
+    _reference:
+      m_AssetGUID: 4446c2f4abff619438cbae22527e5cbb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.unit.cannon
+    _reference:
+      m_AssetGUID: f22a3ccc795b4314b958a40ab3879920
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.heavy-warrior-camp
+    _reference:
+      m_AssetGUID: 8975e32f893113c49a6fe4467414a26f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.mage-camp
+    _reference:
+      m_AssetGUID: edc67454212233143bab89986bdf8b28
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.longbow-camp
+    _reference:
+      m_AssetGUID: 2712eceded3c4d94786e60251aff6f82
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.cannon-camp
+    _reference:
+      m_AssetGUID: 8fb13b9190db889439616ce1862dec3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.wood-gatherer-camp
+    _reference:
+      m_AssetGUID: 34ff7c95de3bee84f87d0bfb24bb62d1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.stone-gatherer-camp
+    _reference:
+      m_AssetGUID: 1c26c7d21a386314486fc71430de1469
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.building.iron-gatherer-camp
+    _reference:
+      m_AssetGUID: 2f9017145ef3fa34e97fe7437b51dc01
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.heavy-warrior-camp
+    _reference:
+      m_AssetGUID: 8975e32f893113c49a6fe4467414a26f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.mage-camp
+    _reference:
+      m_AssetGUID: edc67454212233143bab89986bdf8b28
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.longbow-camp
+    _reference:
+      m_AssetGUID: 2712eceded3c4d94786e60251aff6f82
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.cannon-camp
+    _reference:
+      m_AssetGUID: 8fb13b9190db889439616ce1862dec3f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.wood-gatherer-camp
+    _reference:
+      m_AssetGUID: 34ff7c95de3bee84f87d0bfb24bb62d1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.stone-gatherer-camp
+    _reference:
+      m_AssetGUID: 1c26c7d21a386314486fc71430de1469
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.building.iron-gatherer-camp
+    _reference:
+      m_AssetGUID: 2f9017145ef3fa34e97fe7437b51dc01
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.heavy-warrior
+    _reference:
+      m_AssetGUID: 6a2cf83a67390ff47ae7aaf754061e87
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.mage
+    _reference:
+      m_AssetGUID: c84c46e0e2018b44186e0f0d5205af56
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.longbow
+    _reference:
+      m_AssetGUID: 4446c2f4abff619438cbae22527e5cbb
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.card.soldier.cannon
+    _reference:
+      m_AssetGUID: f22a3ccc795b4314b958a40ab3879920
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.food.player
+    _reference:
+      m_AssetGUID: 5f2f1cd613cc7524886b93949653e327
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.food.enemy
+    _reference:
+      m_AssetGUID: 9b4b3895d998c5b46840b6bcb8778616
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.wood.player
+    _reference:
+      m_AssetGUID: 77051e8efac86744c8998995b3ced6d3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.wood.enemy
+    _reference:
+      m_AssetGUID: 7e77ae5cf8294c846ab0398af5353611
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.stone.player
+    _reference:
+      m_AssetGUID: 0dfd624db8de3814b9f86baed78cbced
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.stone.enemy
+    _reference:
+      m_AssetGUID: 087500088ee67f94d8486f7428f530c9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.iron.player
+    _reference:
+      m_AssetGUID: 2174c0e693274034cb137e7111fdd90a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.worker.iron.enemy
+    _reference:
+      m_AssetGUID: 6113680d726a5694dad9fa9861045f36
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.heavy-warrior.player
+    _reference:
+      m_AssetGUID: 38ed5654b9192dd4fa3c03a7dae74b11
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.heavy-warrior.enemy
+    _reference:
+      m_AssetGUID: a8b07dcb823c8ab4ba4e1fae76fb1fed
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.mage.player
+    _reference:
+      m_AssetGUID: fc9fbc8ca48d87d4b9925a6bc8e91f40
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.mage.enemy
+    _reference:
+      m_AssetGUID: 38e1825c17c75df41a2796f309912b63
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.longbow.player
+    _reference:
+      m_AssetGUID: 784749e8f0b4eef4690a04e0647afbd9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.longbow.enemy
+    _reference:
+      m_AssetGUID: 7d328ecd0649c2b409ab07006eea662d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.cannon.player
+    _reference:
+      m_AssetGUID: e6467d6d125cbc141a3185f4a3f0b12e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.unit.cannon.enemy
+    _reference:
+      m_AssetGUID: fd4e47b1c592fb9499071dd2cba4f8de
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.projectile.fireball
+    _reference:
+      m_AssetGUID: bbc8ad1786c39dd4d9101213ca06e739
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: world.projectile.cannonball
+    _reference:
+      m_AssetGUID: d5b6cca3bf1f6794981b0fbf5dd541f2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.reward.building
+    _reference:
+      m_AssetGUID: 6a9fa96d74378bb428f9544796473702
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.reward.resource
+    _reference:
+      m_AssetGUID: de4f28b52c94b1c4fb3bce693b428765
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: art.reward.reinforcement
+    _reference:
+      m_AssetGUID: 50a5eb1dff656d549b0fdab2ab1b20b5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.boot
+    _reference:
+      m_AssetGUID: ff9226081dde79f4f8f7dc90ef5cbfb1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.selection
+    _reference:
+      m_AssetGUID: e0bedbc0ead7883468b21b6aac2c6737
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.prologue.development
+    _reference:
+      m_AssetGUID: 1f8d77f7ea87ea84782494d30cb88fa8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.prologue.contest
+    _reference:
+      m_AssetGUID: a55948d46f747c44598d856f9c4cafef
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.prologue.decisive
+    _reference:
+      m_AssetGUID: 9769eb18e92d4a3408b2d916bc55bb6b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.river-pass.development
+    _reference:
+      m_AssetGUID: e2a2fe9329b930e4eacd211120aeb161
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.river-pass.contest
+    _reference:
+      m_AssetGUID: 618b4be351eff12438d5fb4f0f92f3a0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.river-pass.decisive
+    _reference:
+      m_AssetGUID: 1ac65897fdc617941958df63aa3372c8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.boss.stone-golem
+    _reference:
+      m_AssetGUID: 0147fc0f1762b014abc629049bf7baa6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.result.victory
+    _reference:
+      m_AssetGUID: 67cd183670d9e4a4fb042476b2948b0e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.bgm.result.defeat
+    _reference:
+      m_AssetGUID: 295c5e0dfc8b70e4993ddcd17ab257d2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.sfx.unit-hit
+    _reference:
+      m_AssetGUID: 82c5b641944d3a046a1f137e2619e92a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
+  - _id: audio.sfx.gather-complete
+    _reference:
+      m_AssetGUID: 523ace56e2057024998475c82aa49d77
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    _excludeFromGameObjectPreload: 1
